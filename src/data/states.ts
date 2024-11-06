@@ -547,9 +547,76 @@ export const states: State[] = [
     cities: ["Oklahoma City", "Tulsa", "Norman", "Broken Arrow", "Edmond"]
   },
   {
-    name: "Texas",
-    abbreviation: "TX",
-    cities: ["Houston", "San Antonio", "Dallas", "Austin", "Fort Worth"]
+    "name": "Texas",
+    "abbreviation": "TX",
+    "cities": [
+        "Houston",          // Major city, population: 2,319,119
+        "San Antonio",      // Major city, population: 1,495,295
+        "Dallas",           // Major city, population: 1,302,868
+        "Austin",           // Major city, population: 979,882
+        "Fort Worth",       // Major city, population: 978,468
+        "El Paso",          // Major city, population: 678,815
+        "Arlington",        // Approximately 20 miles west of Dallas, population: 400,316
+        "Corpus Christi",   // Approximately 210 miles south of San Antonio, population: 327,423
+        "Plano",            // Approximately 20 miles north of Dallas, population: 285,537
+        "Laredo",           // Approximately 150 miles south of San Antonio, population: 261,639
+        "Lubbock",          // Approximately 350 miles northwest of Dallas, population: 257,141
+        "Garland",          // Approximately 15 miles northeast of Dallas, population: 246,018
+        "Irving",           // Approximately 10 miles west of Dallas, population: 239,798
+        "Frisco",           // Approximately 25 miles north of Dallas, population: 200,509
+        "McKinney",         // Approximately 30 miles north of Dallas, population: 199,177
+        "Amarillo",         // Approximately 365 miles northwest of Dallas, population: 199,371
+        "Grand Prairie",    // Approximately 15 miles west of Dallas, population: 196,100
+        "Brownsville",      // Approximately 275 miles south of San Antonio, population: 187,831
+        "Killeen",          // Approximately 70 miles north of Austin, population: 153,095
+        "Pasadena",         // Approximately 15 miles southeast of Houston, population: 152,281
+        "Mesquite",         // Approximately 15 miles east of Dallas, population: 150,108
+        "McAllen",          // Approximately 230 miles south of San Antonio, population: 145,482
+        "Denton",           // Approximately 40 miles northwest of Dallas, population: 139,869
+        "Midland",          // Approximately 330 miles west of Dallas, population: 138,549
+        "Waco",             // Approximately 100 miles south of Dallas, population: 137,779
+        "Carrollton",       // Approximately 20 miles north of Dallas, population: 133,434
+        "Round Rock",       // Approximately 20 miles north of Austin, population: 128,739
+        "Abilene",          // Approximately 180 miles west of Dallas, population: 125,182
+        "Pearland",         // Approximately 20 miles south of Houston, population: 125,828
+        "Richardson",       // Approximately 15 miles north of Dallas, population: 121,323
+        "Odessa",           // Approximately 350 miles west of Dallas, population: 123,334
+        "College Station",  // Approximately 100 miles northwest of Houston, population: 120,019
+        "Lewisville",       // Approximately 25 miles northwest of Dallas, population: 111,822
+        "Tyler",            // Approximately 100 miles east of Dallas, population: 107,441
+        "League City",      // Approximately 25 miles southeast of Houston, population: 106,244
+        "Allen",            // Approximately 25 miles north of Dallas, population: 104,636
+        "Sugar Land",       // Approximately 20 miles southwest of Houston, population: 102,287
+        "Edinburg",         // Approximately 230 miles south of San Antonio, population: 101,170
+        "Mission",          // Approximately 230 miles south of San Antonio, population: 100,809
+        "Longview",         // Approximately 125 miles east of Dallas, population: 81,647
+        "Bryan",            // Approximately 100 miles northwest of Houston, population: 86,276
+        "Pharr",            // Approximately 230 miles south of San Antonio, population: 79,112
+        "Baytown",          // Approximately 25 miles east of Houston, population: 77,192
+        "Missouri City",    // Approximately 20 miles southwest of Houston, population: 74,139
+        "Temple",           // Approximately 70 miles north of Austin, population: 78,439
+        "Flower Mound",     // Approximately 25 miles northwest of Dallas, population: 79,135
+        "New Braunfels",    // Approximately 30 miles northeast of San Antonio, population: 90,209
+        "Cedar Park",       // Approximately 20 miles northwest of Austin, population: 77,595
+        "Conroe",           // Approximately 40 miles north of Houston, population: 87,654
+        "Victoria",         // Approximately 125 miles southeast of San Antonio, population: 67,106
+        "Harlingen",        // Approximately 275 miles south of San Antonio, population: 65,022
+        "Mansfield",        // Approximately 20 miles southwest of Dallas, population: 73,550
+        "Georgetown",       // Approximately 25 miles north of Austin, population: 79,604
+        "San Angelo",       // Approximately 210 miles northwest of San Antonio, population: 101,612
+        "Rowlett",          // Approximately 20 miles northeast of Dallas, population: 66,285
+        "Port Arthur",      // Approximately 90 miles east of Houston, population: 55,109
+        "Euless",           // Approximately 20 miles west of Dallas, population: 61,032
+        "DeSoto",           // Approximately 15 miles south of Dallas, population: 56,831
+        "Grapevine",        // Approximately 20 miles northwest of Dallas, population: 54,514
+        "Galveston",        // Approximately 50 miles southeast of Houston, population: 50,497
+        "Wylie",            // Approximately 30 miles northeast of Dallas, population: 53,067
+        "Pflugerville",     // Approximately 15 miles north of Austin, population: 65,380
+        "Cedar Hill",       // Approximately 20 miles southwest of Dallas, population: 48,463
+        "Texarkana",        // Approximately 180 miles northeast of Dallas, population: 37,280
+        "Keller",           // Approximately 20 miles north of Fort Worth, population: 47,213
+        "Haltom City",      // Approximately 5 miles northeast of Fort Worth, population: 44,206
+            ]
   },
 
   // Northeast States
