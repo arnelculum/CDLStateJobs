@@ -394,9 +394,75 @@ export const states: State[] = [
     cities: ["Birmingham", "Montgomery", "Huntsville", "Mobile", "Tuscaloosa"]
   },
   {
-    name: "Arizona",
-    abbreviation: "AZ",
-    cities: ["Phoenix", "Tucson", "Mesa", "Chandler", "Glendale"]
+    "name": "Arizona",
+    "abbreviation": "AZ",
+    "cities": [
+        "Phoenix",          // Major city, population: 1,650,070
+        "Tucson",           // Major city, population: 547,239
+        "Mesa",             // Major city, population: 511,648
+        "Chandler",         // Approximately 22 miles southeast of Phoenix, population: 280,167
+        "Gilbert",          // Approximately 22 miles southeast of Phoenix, population: 275,411
+        "Glendale",         // Approximately 9 miles northwest of Phoenix, population: 253,855
+        "Scottsdale",       // Approximately 12 miles northeast of Phoenix, population: 244,394
+        "Peoria",           // Approximately 13 miles northwest of Phoenix, population: 198,750
+        "Tempe",            // Approximately 10 miles east of Phoenix, population: 189,834
+        "Surprise",         // Approximately 20 miles northwest of Phoenix, population: 158,285
+        "Goodyear",         // Approximately 17 miles west of Phoenix, population: 111,805
+        "Buckeye",          // Approximately 30 miles west of Phoenix, population: 108,909
+        "San Tan Valley",   // Approximately 45 miles southeast of Phoenix, population: 101,207
+        "Yuma",             // Approximately 185 miles southwest of Phoenix, population: 100,858
+        "Avondale",         // Approximately 15 miles west of Phoenix, population: 93,545
+        "Flagstaff",        // Approximately 145 miles north of Phoenix, population: 76,586
+        "Queen Creek",      // Approximately 35 miles southeast of Phoenix, population: 76,570
+        "Maricopa",         // Approximately 35 miles south of Phoenix, population: 71,022
+        "Casas Adobes",     // Approximately 10 miles north of Tucson, population: 69,917
+        "Casa Grande",      // Approximately 48 miles southeast of Phoenix, population: 63,743
+        "Lake Havasu City", // Approximately 200 miles northwest of Phoenix, population: 59,257
+        "Marana",           // Approximately 25 miles northwest of Tucson, population: 58,430
+        "Catalina Foothills", // Approximately 8 miles north of Tucson, population: 50,573
+        "Prescott Valley",  // Approximately 85 miles north of Phoenix, population: 50,045
+        "Oro Valley",       // Approximately 10 miles north of Tucson, population: 48,311
+        "Prescott",         // Approximately 100 miles north of Phoenix, population: 47,757
+        "Sierra Vista",     // Approximately 75 miles southeast of Tucson, population: 44,431
+        "Bullhead City",    // Approximately 230 miles northwest of Phoenix, population: 43,302
+        "Apache Junction",  // Approximately 35 miles east of Phoenix, population: 41,153
+        "San Luis",         // Approximately 200 miles southwest of Phoenix, population: 37,966
+        "Sun City",         // Approximately 20 miles northwest of Phoenix, population: 37,748
+        "Sahuarita",        // Approximately 15 miles south of Tucson, population: 36,356
+        "El Mirage",        // Approximately 15 miles northwest of Phoenix, population: 35,850
+        "Kingman",          // Approximately 195 miles northwest of Phoenix, population: 35,334
+        "Drexel Heights",   // Approximately 10 miles southwest of Tucson, population: 30,254
+        "Fortuna Foothills", // Approximately 10 miles east of Yuma, population: 27,552
+        "Sun City West",    // Approximately 25 miles northwest of Phoenix, population: 26,639
+        "Florence",         // Approximately 60 miles southeast of Phoenix, population: 24,291
+        "Fountain Hills",   // Approximately 30 miles northeast of Phoenix, population: 23,611
+        "Anthem",           // Approximately 35 miles north of Phoenix, population: 22,708
+        "Rio Rico",         // Approximately 60 miles south of Tucson, population: 21,447
+        "Green Valley",     // Approximately 25 miles south of Tucson, population: 20,937
+        "Nogales",          // Approximately 70 miles south of Tucson, population: 19,702
+        "Eloy",             // Approximately 65 miles southeast of Phoenix, population: 18,528
+        "New River",        // Approximately 35 miles north of Phoenix, population: 18,422
+        "Coolidge",         // Approximately 55 miles southeast of Phoenix, population: 18,293
+        "Flowing Wells",    // Approximately 5 miles northwest of Tucson, population: 17,188
+        "Payson",           // Approximately 90 miles northeast of Phoenix, population: 16,731
+        "Fort Mohave",      // Approximately 230 miles northwest of Phoenix, population: 16,038
+        "Douglas",          // Approximately 120 miles southeast of Tucson, population: 15,638
+        "Vail",             // Approximately 20 miles southeast of Tucson, population: 15,248
+        "Tanque Verde",     // Approximately 15 miles northeast of Tucson, population: 14,815
+        "Somerton",         // Approximately 12 miles southwest of Yuma, population: 14,594
+        "Sierra Vista Southeast", // Approximately 80 miles southeast of Tucson, population: 14,398
+        "Sun Lakes",        // Approximately 25 miles southeast of Phoenix, population: 14,147
+        "Chino Valley",     // Approximately 90 miles north of Phoenix, population: 13,815
+        "Valencia West",    // Approximately 15 miles southwest of Tucson, population: 13,692
+        "New Kingman-Butler", // Approximately 200 miles northwest of Phoenix, population: 13,247
+        "Cottonwood",       // Approximately 100 miles north of Phoenix, population: 13,124
+        "Tucson Estates",   // Approximately 10 miles west of Tucson, population: 12,795
+        "Paradise Valley",  // Approximately 15 miles northeast of Phoenix, population: 12,502
+        "Camp Verde",       // Approximately 90 miles north of Phoenix, population: 12,489
+        "Show Low",         // Approximately 175 miles northeast of Phoenix, population: 12,192
+        "Saddlebrooke",     // Approximately 25 miles north of Tucson, population: 12,014
+        "Verde Village",    // Approximately 100 miles north of Phoenix, population: 12,005
+            ]
   },
   {
     name: "Nebraska",
