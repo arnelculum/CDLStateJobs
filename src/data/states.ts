@@ -1057,9 +1057,73 @@ export const states: State[] = [
             ]
   },
   {
-    name: "Louisiana",
-    abbreviation: "LA",
-    cities: ["New Orleans", "Baton Rouge", "Shreveport", "Lafayette", "Lake Charles"]
+    "name": "Louisiana",
+    "abbreviation": "LA",
+    "cities": [
+        "New Orleans",        // Major city, population: 364,136
+        "Baton Rouge",        // Major city, population: 219,573
+        "Shreveport",         // Major city, population: 177,959
+        "Metairie",           // Approximately 6 miles west of New Orleans, population: 140,046
+        "Lafayette",          // Approximately 55 miles southwest of Baton Rouge, population: 121,467
+        "Lake Charles",       // Approximately 125 miles west of Baton Rouge, population: 79,633
+        "Kenner",             // Approximately 10 miles west of New Orleans, population: 63,333
+        "Bossier City",       // Approximately 2 miles east of Shreveport, population: 62,738
+        "Monroe",             // Approximately 100 miles east of Shreveport, population: 46,616
+        "Alexandria",         // Approximately 125 miles northwest of Baton Rouge, population: 43,466
+        "Prairieville",       // Approximately 15 miles southeast of Baton Rouge, population: 34,215
+        "Marrero",            // Approximately 7 miles south of New Orleans, population: 32,003
+        "Houma",              // Approximately 55 miles southwest of New Orleans, population: 31,733
+        "Central",            // Approximately 15 miles northeast of Baton Rouge, population: 29,781
+        "Laplace",            // Approximately 25 miles west of New Orleans, population: 28,956
+        "Slidell",            // Approximately 30 miles northeast of New Orleans, population: 28,510
+        "New Iberia",         // Approximately 20 miles southeast of Lafayette, population: 27,080
+        "Terrytown",          // Approximately 5 miles south of New Orleans, population: 26,105
+        "Hammond",            // Approximately 45 miles east of Baton Rouge, population: 22,527
+        "Ruston",             // Approximately 70 miles east of Shreveport, population: 22,233
+        "Chalmette",          // Approximately 7 miles east of New Orleans, population: 22,192
+        "Harvey",             // Approximately 5 miles south of New Orleans, population: 21,485
+        "Bayou Cane",         // Approximately 60 miles southwest of New Orleans, population: 21,142
+        "Sulphur",            // Approximately 10 miles west of Lake Charles, population: 20,400
+        "Zachary",            // Approximately 15 miles north of Baton Rouge, population: 19,968
+        "Shenandoah",         // Approximately 10 miles southeast of Baton Rouge, population: 18,561
+        "Youngsville",        // Approximately 10 miles south of Lafayette, population: 18,002
+        "Natchitoches",       // Approximately 75 miles southeast of Shreveport, population: 17,195
+        "Estelle",            // Approximately 10 miles south of New Orleans, population: 17,091
+        "Gretna",             // Approximately 5 miles south of New Orleans, population: 17,026
+        "Thibodaux",          // Approximately 60 miles southwest of New Orleans, population: 15,646
+        "Opelousas",          // Approximately 20 miles north of Lafayette, population: 15,390
+        "Broussard",          // Approximately 10 miles southeast of Lafayette, population: 14,543
+        "Luling",             // Approximately 25 miles west of New Orleans, population: 14,207
+        "Pineville",          // Approximately 2 miles north of Alexandria, population: 14,034
+        "Gonzales",           // Approximately 20 miles southeast of Baton Rouge, population: 13,737
+        "River Ridge",        // Approximately 10 miles west of New Orleans, population: 13,362
+        "Mandeville",         // Approximately 35 miles north of New Orleans, population: 12,999
+        "Carencro",           // Approximately 10 miles north of Lafayette, population: 12,639
+        "West Monroe",        // Approximately 2 miles west of Monroe, population: 12,535
+        "Claiborne",          // Approximately 5 miles south of Shreveport, population: 12,159
+        "Baker",              // Approximately 10 miles north of Baton Rouge, population: 12,057
+        "Destrehan",          // Approximately 20 miles west of New Orleans, population: 12,057
+        "Woodmere",           // Approximately 10 miles south of New Orleans, population: 11,661
+        "Bayou Blue",         // Approximately 60 miles southwest of New Orleans, population: 11,624
+        "Covington",          // Approximately 40 miles north of New Orleans, population: 11,618
+        "Moss Bluff",         // Approximately 5 miles north of Lake Charles, population: 11,582
+        "Gardere",            // Approximately 10 miles south of Baton Rouge, population: 11,565
+        "Crowley",            // Approximately 25 miles west of Lafayette, population: 11,272
+        "Minden",             // Approximately 30 miles east of Shreveport, population: 11,248
+        "Raceland",           // Approximately 50 miles southwest of New Orleans, population: 11,094
+        "Timberlane",         // Approximately 5 miles south of New Orleans, population: 10,912
+        "Abbeville",          // Approximately 20 miles south of Lafayette, population: 10,890
+        "Morgan City",        // Approximately 70 miles west of New Orleans, population: 10,873
+        "Belle Chasse",       // Approximately 10 miles south of New Orleans, population: 10,781
+        "Waggaman",           // Approximately 15 miles west of New Orleans, population: 10,706
+        "Bogalusa",           // Approximately 70 miles north of New Orleans, population: 10,343
+        "Jefferson",          // Approximately 5 miles west of New Orleans, population: 10,141
+        "DeRidder",           // Approximately 45 miles north of Lake Charles, population: 9,594
+        "Jennings",           // Approximately 40 miles east of Lake Charles, population: 9,372
+        "Denham Springs",     // Approximately 15 miles east of Baton Rouge, population: 9,349
+        "Eunice",             // Approximately 40 miles northwest of Lafayette, population: 9,161
+        "Bastrop",            // Approximately 25 miles north of Monroe, population: 8,989
+            ]
   },
   {
     name: "Mississippi",
