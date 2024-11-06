@@ -533,7 +533,7 @@ export const generateJobListings = () => {
           location: `${city}, ${state.abbreviation}`,
           pay: '$0.57 – $0.60/mile',
           postedDate: '2 days ago',
-          description: `Join our growing team of professional drivers in ${city}. We offer optimized lanes and consistent freight for the best home time and pay in ${state.name}.`,
+          description: `Join our expanding team of over-the-road (OTR) professional drivers serving the ${city}, ${state.abbreviation} area. Based in Jerome, Idaho, Giltner Transportation offers optimized lanes and consistent freight, ensuring you receive the best home time and competitive pay in ${state.name}. We provide a rental car for your journey to Jerome for orientation, covering gas and hotel expenses. After orientation, you'll embark on the road with your assigned semi-truck, with our dispatch team coordinating to meet your home time needs. For more information, contact our recruiting team at (208) 324-4486.`
           benefits: defaultBenefits
         },
         {
