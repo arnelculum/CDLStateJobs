@@ -882,9 +882,49 @@ export const states: State[] = [
     cities: ["Milwaukee", "Madison", "Green Bay", "Kenosha", "Racine"]
   },
   {
-    name: "Iowa",
-    abbreviation: "IA",
-    cities: ["Des Moines", "Cedar Rapids", "Davenport", "Sioux City", "Iowa City"]
+    "name": "Iowa",
+    "abbreviation": "IA",
+    "cities": [
+        "Des Moines",        // Major city, population: 210,381
+        "Cedar Rapids",      // Major city, population: 135,958
+        "Davenport",         // Major city, population: 100,354
+        "Sioux City",        // Major city, population: 85,727
+        "Iowa City",         // Major city, population: 75,678
+        "Ankeny",            // Approximately 10 miles north of Des Moines, population: 74,458
+        "West Des Moines",   // Approximately 5 miles west of Des Moines, population: 72,205
+        "Waterloo",          // Approximately 55 miles northwest of Cedar Rapids, population: 66,606
+        "Ames",              // Approximately 30 miles north of Des Moines, population: 65,686
+        "Council Bluffs",    // Approximately 130 miles west of Des Moines, population: 62,399
+        "Dubuque",           // Approximately 80 miles northeast of Cedar Rapids, population: 59,667
+        "Urbandale",         // Approximately 10 miles northwest of Des Moines, population: 45,565
+        "Marion",            // Approximately 5 miles northeast of Cedar Rapids, population: 41,613
+        "Bettendorf",        // Approximately 5 miles east of Davenport, population: 39,107
+        "Mason City",        // Approximately 120 miles north of Des Moines, population: 27,244
+        "Marshalltown",      // Approximately 50 miles northeast of Des Moines, population: 27,570
+        "Clinton",           // Approximately 40 miles northeast of Davenport, population: 24,425
+        "Burlington",        // Approximately 80 miles south of Davenport, population: 23,931
+        "Ottumwa",           // Approximately 85 miles southeast of Des Moines, population: 25,451
+        "Fort Dodge",        // Approximately 90 miles northwest of Des Moines, population: 24,728
+        "Muscatine",         // Approximately 30 miles southwest of Davenport, population: 23,713
+        "Coralville",        // Approximately 3 miles northwest of Iowa City, population: 22,359
+        "North Liberty",     // Approximately 10 miles north of Iowa City, population: 20,622
+        "Altoona",           // Approximately 10 miles east of Des Moines, population: 19,638
+        "Clive",             // Approximately 10 miles west of Des Moines, population: 18,646
+        "Newton",            // Approximately 35 miles east of Des Moines, population: 15,772
+        "Indianola",         // Approximately 20 miles south of Des Moines, population: 15,677
+        "Grimes",            // Approximately 15 miles northwest of Des Moines, population: 15,587
+        "Norwalk",           // Approximately 10 miles south of Des Moines, population: 12,952
+        "Boone",             // Approximately 50 miles north of Des Moines, population: 12,447
+        "Oskaloosa",         // Approximately 60 miles southeast of Des Moines, population: 11,593
+        "Spencer",           // Approximately 180 miles northwest of Des Moines, population: 11,273
+        "Storm Lake",        // Approximately 150 miles northwest of Des Moines, population: 11,238
+        "Le Mars",           // Approximately 25 miles north of Sioux City, population: 10,580
+        "Pella",             // Approximately 40 miles southeast of Des Moines, population: 10,382
+        "Waverly",           // Approximately 90 miles northeast of Des Moines, population: 10,351
+        "Fort Madison",      // Approximately 150 miles southeast of Des Moines, population: 10,265
+        "Carroll",           // Approximately 90 miles northwest of Des Moines, population: 10,253
+        "Pleasant Hill",     // Approximately 5 miles east of Des Moines, population: 10,170
+            ]
   },
   {
     name: "Missouri",
