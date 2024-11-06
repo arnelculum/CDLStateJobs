@@ -138,10 +138,67 @@ export const states: State[] = [
     ]
 },
   {
-    name: "Oregon",
-    abbreviation: "OR",
-    cities: ["Portland", "Eugene", "Salem", "Gresham", "Hillsboro"]
-  },
+    "name": "Oregon",
+    "abbreviation": "OR",
+    "cities": [
+        "Portland",        // Major city
+        "Salem",           // Major city
+        "Eugene",          // Major city
+        "Gresham",         // Approximately 16 miles east of Portland
+        "Hillsboro",       // Approximately 20 miles west of Portland
+        "Beaverton",       // Approximately 7 miles west of Portland
+        "Bend",            // Major city
+        "Medford",         // Major city
+        "Springfield",     // Approximately 5 miles east of Eugene
+        "Corvallis",       // Approximately 37 miles south of Salem
+        "Albany",          // Approximately 26 miles south of Salem
+        "Tigard",          // Approximately 10 miles southwest of Portland
+        "Lake Oswego",     // Approximately 8 miles south of Portland
+        "Keizer",          // Approximately 5 miles north of Salem
+        "Grants Pass",     // Approximately 30 miles northwest of Medford
+        "Oregon City",     // Approximately 13 miles south of Portland
+        "Redmond",         // Approximately 17 miles north of Bend
+        "Tualatin",        // Approximately 12 miles southwest of Portland
+        "West Linn",       // Approximately 12 miles south of Portland
+        "Woodburn",        // Approximately 20 miles north of Salem
+        "Newberg",         // Approximately 22 miles southwest of Portland
+        "Wilsonville",     // Approximately 18 miles south of Portland
+        "Forest Grove",    // Approximately 25 miles west of Portland
+        "Happy Valley",    // Approximately 13 miles southeast of Portland
+        "Milwaukie",       // Approximately 7 miles south of Portland
+        "Sherwood",        // Approximately 17 miles southwest of Portland
+        "Central Point",   // Approximately 5 miles northwest of Medford
+        "Klamath Falls",   // Approximately 70 miles southeast of Medford
+        "Ashland",         // Approximately 13 miles south of Medford
+        "McMinnville",     // Approximately 35 miles southwest of Portland
+        "Roseburg",        // Approximately 70 miles south of Eugene
+        "The Dalles",      // Approximately 80 miles east of Portland
+        "Pendleton",       // Approximately 210 miles east of Portland
+        "Astoria",         // Approximately 97 miles northwest of Portland
+        "Hermiston",       // Approximately 180 miles east of Portland
+        "Coos Bay",        // Approximately 115 miles southwest of Eugene
+        "La Grande",       // Approximately 260 miles east of Portland
+        "St. Helens",      // Approximately 30 miles northwest of Portland
+        "Lebanon",         // Approximately 45 miles south of Salem
+        "Dallas",          // Approximately 15 miles west of Salem
+        "Canby",           // Approximately 25 miles south of Portland
+        "Ontario",         // Approximately 375 miles east of Portland
+        "Seaside",         // Approximately 80 miles northwest of Portland
+        "Florence",        // Approximately 60 miles west of Eugene
+        "Newport",         // Approximately 55 miles west of Corvallis
+        "Lincoln City",    // Approximately 60 miles west of Salem
+        "Tillamook",       // Approximately 75 miles west of Portland
+        "Baker City",      // Approximately 300 miles east of Portland
+        "Prineville",      // Approximately 35 miles northeast of Bend
+        "Madras",          // Approximately 45 miles north of Bend
+        "Sandy",           // Approximately 30 miles east of Portland
+        "Silverton",       // Approximately 15 miles northeast of Salem
+        "Monmouth",        // Approximately 20 miles southwest of Salem
+        "Independence",    // Approximately 15 miles southwest of Salem
+        "Cottage Grove",   // Approximately 20 miles south of Eugene
+        "Sutherlin"        // Approximately 12 miles north of Roseburg
+    ]
+},
   {
     name: "Idaho",
     abbreviation: "ID",
