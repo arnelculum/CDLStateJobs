@@ -200,10 +200,75 @@ export const states: State[] = [
     ]
 },
   {
-    name: "Idaho",
-    abbreviation: "ID",
-    cities: ["Boise", "Meridian", "Nampa", "Idaho Falls", "Pocatello"]
-  },
+    "name": "Idaho",
+    "abbreviation": "ID",
+    "cities": [
+        "Boise",          // Major city, population: 235,216
+        "Meridian",       // Major city, population: 134,801
+        "Nampa",          // Major city, population: 114,268
+        "Caldwell",       // Approximately 27 miles west of Boise, population: 68,336
+        "Idaho Falls",    // Approximately 218 miles east of Boise, population: 68,001
+        "Pocatello",      // Approximately 234 miles east of Boise, population: 58,064
+        "Coeur d'Alene",  // Approximately 379 miles north of Boise, population: 56,894
+        "Twin Falls",     // Approximately 128 miles southeast of Boise, population: 54,943
+        "Post Falls",     // Approximately 8 miles west of Coeur d'Alene, population: 44,798
+        "Rexburg",        // Approximately 28 miles northeast of Idaho Falls, population: 39,975
+        "Lewiston",       // Approximately 270 miles north of Boise, population: 34,836
+        "Eagle",          // Approximately 10 miles northwest of Boise, population: 32,319
+        "Moscow",         // Approximately 84 miles north of Lewiston, population: 26,387
+        "Kuna",           // Approximately 18 miles southwest of Boise, population: 28,050
+        "Ammon",          // Approximately 5 miles east of Idaho Falls, population: 19,617
+        "Chubbuck",       // Approximately 5 miles north of Pocatello, population: 16,362
+        "Hayden",         // Approximately 6 miles north of Coeur d'Alene, population: 16,422
+        "Mountain Home",  // Approximately 44 miles southeast of Boise, population: 16,703
+        "Blackfoot",      // Approximately 25 miles southwest of Idaho Falls, population: 12,355
+        "Garden City",    // Enclave within Boise, population: 12,033
+        "Jerome",         // Approximately 12 miles northwest of Twin Falls, population: 12,111
+        "Burley",         // Approximately 38 miles east of Twin Falls, population: 11,704
+        "Hailey",         // Approximately 142 miles east of Boise, population: 9,601
+        "Sandpoint",      // Approximately 47 miles north of Coeur d'Alene, population: 9,527
+        "Payette",        // Approximately 60 miles northwest of Boise, population: 7,655
+        "Rathdrum",       // Approximately 10 miles northwest of Coeur d'Alene, population: 9,150
+        "Emmett",         // Approximately 30 miles northwest of Boise, population: 7,190
+        "Weiser",         // Approximately 75 miles northwest of Boise, population: 5,507
+        "Mountain Home AFB", // Approximately 12 miles southwest of Mountain Home, population: 3,238
+        "Rupert",         // Approximately 5 miles northeast of Burley, population: 5,829
+        "St. Anthony",    // Approximately 45 miles northeast of Idaho Falls, population: 3,470
+        "Shelley",        // Approximately 10 miles south of Idaho Falls, population: 4,409
+        "Gooding",        // Approximately 40 miles northwest of Twin Falls, population: 3,567
+        "Buhl",           // Approximately 16 miles west of Twin Falls, population: 4,385
+        "Preston",        // Approximately 100 miles southeast of Pocatello, population: 5,354
+        "Montpelier",     // Approximately 130 miles southeast of Pocatello, population: 2,597
+        "Soda Springs",   // Approximately 60 miles southeast of Pocatello, population: 3,058
+        "American Falls", // Approximately 28 miles southwest of Pocatello, population: 4,457
+        "Malad City",     // Approximately 115 miles south of Pocatello, population: 2,289
+        "Shoshone",       // Approximately 24 miles north of Twin Falls, population: 1,641
+        "Bellevue",       // Approximately 16 miles south of Hailey, population: 2,287
+        "Ketchum",        // Approximately 12 miles north of Hailey, population: 2,763
+        "Sun Valley",     // Approximately 13 miles north of Hailey, population: 1,800
+        "Driggs",         // Approximately 50 miles northeast of Idaho Falls, population: 1,981
+        "Victor",         // Approximately 24 miles northeast of Idaho Falls, population: 2,174
+        "Salmon",         // Approximately 160 miles north of Idaho Falls, population: 3,112
+        "Mackay",         // Approximately 70 miles northwest of Idaho Falls, population: 473
+        "Arco",           // Approximately 75 miles west of Idaho Falls, population: 882
+        "Challis",        // Approximately 130 miles northwest of Idaho Falls, population: 897
+        "Mullan",         // Approximately 90 miles east of Coeur d'Alene, population: 692
+        "Wallace",        // Approximately 50 miles east of Coeur d'Alene, population: 786
+        "Kellogg",        // Approximately 36 miles east of Coeur d'Alene, population: 2,307
+        "Osburn",         // Approximately 40 miles east of Coeur d'Alene, population: 1,581
+        "Pinehurst",      // Approximately 30 miles east of Coeur d'Alene, population: 1,676
+        "Smelterville",   // Approximately 35 miles east of Coeur d'Alene, population: 627
+        "Bonners Ferry",  // Approximately 30 miles south of the Canada–US border, population: 2,543
+        "Moyie Springs",  // Approximately 5 miles east of Bonners Ferry, population: 834
+        "Priest River",   // Approximately 60 miles north of Coeur d'Alene, population: 1,677
+        "Oldtown",        // Approximately 60 miles north of Coeur d'Alene, population: 190
+        "Spirit Lake",    // Approximately 20 miles north of Coeur d'Alene, population: 2,351
+        "Plummer",        // Approximately 35 miles south of Coeur d'Alene, population: 1,019
+        "St. Maries",     // Approximately 50 miles south of Coeur d'Alene, population: 2,358
+        "Orofino",        // Approximately 110 miles southeast of Coeur d'Alene, population: 3,142
+        "Kamiah",         // Approximately 65 miles southeast of Lewiston, population: 1,146,
+      ]
+},
 
   // North Central States
   {
@@ -222,10 +287,22 @@ export const states: State[] = [
     cities: ["Sioux Falls", "Rapid City", "Aberdeen", "Brookings", "Watertown"]
   },
   {
-    name: "Wyoming",
-    abbreviation: "WY",
-    cities: ["Cheyenne", "Casper", "Laramie", "Gillette", "Rock Springs"]
-  },
+    "name": "Wyoming",
+    "abbreviation": "WY",
+    "cities": [
+        "Cheyenne",        // Major city, population: 65,168
+        "Casper",          // Major city, population: 58,720
+        "Gillette",        // Major city, population: 33,496
+        "Laramie",         // Major city, population: 32,152
+        "Rock Springs",    // Major city, population: 22,954
+        "Sheridan",        // Major city, population: 19,543
+        "Evanston",        // Approximately 83 miles southwest of Rock Springs, population: 11,807
+        "Green River",     // Approximately 12 miles west of Rock Springs, population: 11,496
+        "Riverton",        // Approximately 121 miles northwest of Casper, population: 10,923
+        "Jackson",         // Approximately 180 miles west of Casper, population: 10,639
+        "Cody"             // Approximately 148 miles northwest of Casper, population: 10,240
+    ]
+},
   {
     name: "Utah",
     abbreviation: "UT",
