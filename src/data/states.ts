@@ -98,10 +98,45 @@ export const states: State[] = [
     cities: ["Albuquerque", "Las Cruces", "Rio Rancho", "Santa Fe", "Roswell"]
   },
   {
-    name: "Washington",
-    abbreviation: "WA",
-    cities: ["Seattle", "Spokane", "Tacoma", "Vancouver", "Bellevue"]
-  },
+    "name": "Washington",
+    "abbreviation": "WA",
+    "cities": [
+        "Seattle",        // Major city
+        "Spokane",        // Major city
+        "Tacoma",         // Major city
+        "Vancouver",      // Major city
+        "Bellevue",       // Major city
+        "Kent",           // Major city
+        "Everett",        // Major city
+        "Renton",         // Major city
+        "Federal Way",    // Major city
+        "Bellingham",     // Major city
+        "Walla Walla",    // Approximately 160 miles south of Spokane
+        "Richland",       // Approximately 140 miles southwest of Spokane
+        "Kennewick",      // Approximately 140 miles southwest of Spokane
+        "Pasco",          // Approximately 140 miles southwest of Spokane
+        "Yakima",         // Approximately 200 miles west of Spokane
+        "Goldendale",     // Approximately 70 miles south of Yakima
+        "Moses Lake",     // Approximately 100 miles west of Spokane
+        "Quincy",         // Approximately 130 miles west of Spokane
+        "Ephrata",        // Approximately 120 miles west of Spokane
+        "Forks",          // Approximately 140 miles northwest of Seattle
+        "Port Angeles",   // Approximately 85 miles northwest of Seattle
+        "Aberdeen",       // Approximately 110 miles southwest of Seattle
+        "Hoquiam",        // Approximately 110 miles southwest of Seattle
+        "Ocean Shores",   // Approximately 130 miles southwest of Seattle
+        "South Bend",     // Approximately 130 miles southwest of Seattle
+        "Raymond",        // Approximately 130 miles southwest of Seattle
+        "Shelton",        // Approximately 85 miles southwest of Seattle
+        "Colville",       // Approximately 70 miles north of Spokane
+        "Pullman",        // Approximately 75 miles south of Spokane
+        "Clarkston",      // Approximately 110 miles south of Spokane
+        "Chewelah",       // Approximately 50 miles north of Spokane
+        "Kettle Falls",   // Approximately 80 miles north of Spokane
+        "Wenatchee",      // Approximately 140 miles east of Seattle
+        "Cashmere"        // Approximately 130 miles east of Seattle
+    ]
+},
   {
     name: "Oregon",
     abbreviation: "OR",
