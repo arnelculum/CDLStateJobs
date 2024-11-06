@@ -304,9 +304,72 @@ export const states: State[] = [
     ]
 },
   {
-    name: "Utah",
-    abbreviation: "UT",
-    cities: ["Salt Lake City", "West Valley City", "Provo", "West Jordan", "Orem"]
+    "name": "Utah",
+    "abbreviation": "UT",
+    "cities": [
+        "Salt Lake City",    // Major city, population: 212,570
+        "West Valley City",  // Major city, population: 132,635
+        "West Jordan",       // Major city, population: 114,200
+        "Provo",             // Major city, population: 112,756
+        "St. George",        // Major city, population: 104,578
+        "Orem",              // Approximately 5 miles north of Provo, population: 95,519
+        "Sandy",             // Approximately 13 miles south of Salt Lake City, population: 91,943
+        "Lehi",              // Approximately 23 miles north of Provo, population: 90,227
+        "Ogden",             // Approximately 40 miles north of Salt Lake City, population: 87,267
+        "South Jordan",      // Approximately 18 miles south of Salt Lake City, population: 84,528
+        "Layton",            // Approximately 25 miles north of Salt Lake City, population: 83,516
+        "Millcreek",         // Approximately 6 miles south of Salt Lake City, population: 62,205
+        "Herriman",          // Approximately 20 miles southwest of Salt Lake City, population: 60,049
+        "Taylorsville",      // Approximately 10 miles southwest of Salt Lake City, population: 57,098
+        "Eagle Mountain",    // Approximately 30 miles southwest of Salt Lake City, population: 56,932
+        "Logan",             // Approximately 82 miles north of Salt Lake City, population: 55,250
+        "Saratoga Springs",  // Approximately 35 miles south of Salt Lake City, population: 52,532
+        "Draper",            // Approximately 20 miles south of Salt Lake City, population: 49,602
+        "Murray",            // Approximately 8 miles south of Salt Lake City, population: 49,553
+        "Spanish Fork",      // Approximately 8 miles south of Provo, population: 45,557
+        "Riverton",          // Approximately 20 miles south of Salt Lake City, population: 44,854
+        "Bountiful",         // Approximately 11 miles north of Salt Lake City, population: 44,144
+        "Cedar City",        // Approximately 250 miles south of Salt Lake City, population: 39,942
+        "Tooele",            // Approximately 35 miles southwest of Salt Lake City, population: 39,263
+        "Roy",               // Approximately 32 miles north of Salt Lake City, population: 38,592
+        "American Fork",     // Approximately 30 miles south of Salt Lake City, population: 38,549
+        "Kearns",            // Approximately 12 miles southwest of Salt Lake City, population: 37,767
+        "Pleasant Grove",    // Approximately 10 miles north of Provo, population: 37,294
+        "Syracuse",          // Approximately 25 miles north of Salt Lake City, population: 37,022
+        "Midvale",           // Approximately 12 miles south of Salt Lake City, population: 35,561
+        "Springville",       // Approximately 5 miles south of Provo, population: 35,471
+        "Clearfield",        // Approximately 30 miles north of Salt Lake City, population: 34,470
+        "Washington",        // Approximately 5 miles east of St. George, population: 33,877
+        "Kaysville",         // Approximately 20 miles north of Salt Lake City, population: 32,941
+        "Cottonwood Heights",// Approximately 12 miles south of Salt Lake City, population: 32,204
+        "Holladay",          // Approximately 8 miles south of Salt Lake City, population: 30,298
+        "Magna",             // Approximately 15 miles west of Salt Lake City, population: 30,087
+        "South Salt Lake",   // Approximately 3 miles south of Salt Lake City, population: 26,122
+        "Farmington",        // Approximately 16 miles north of Salt Lake City, population: 25,771
+        "Payson",            // Approximately 15 miles south of Provo, population: 24,054
+        "West Haven",        // Approximately 35 miles north of Salt Lake City, population: 24,014
+        "Hurricane",         // Approximately 20 miles northeast of St. George, population: 23,959
+        "Clinton",           // Approximately 30 miles north of Salt Lake City, population: 23,588
+        "North Salt Lake",   // Approximately 8 miles north of Salt Lake City, population: 23,560
+        "North Ogden",       // Approximately 45 miles north of Salt Lake City, population: 22,233
+        "Highland",          // Approximately 30 miles south of Salt Lake City, population: 20,217
+        "Brigham City",      // Approximately 60 miles north of Salt Lake City, population: 19,970
+        "Bluffdale",         // Approximately 20 miles south of Salt Lake City, population: 19,090
+        "Heber",             // Approximately 45 miles southeast of Salt Lake City, population: 18,533
+        "South Ogden",       // Approximately 40 miles north of Salt Lake City, population: 17,678
+        "Santaquin",         // Approximately 20 miles south of Provo, population: 17,532
+        "Centerville",       // Approximately 15 miles north of Salt Lake City, population: 16,517
+        "Grantsville",       // Approximately 35 miles west of Salt Lake City, population: 15,267
+        "Smithfield",        // Approximately 85 miles north of Salt Lake City, population: 14,726
+        "Vineyard",          // Approximately 40 miles south of Salt Lake City, population: 14,500
+        "Mapleton",          // Approximately 10 miles south of Provo, population: 13,732
+        "West Point",        // Approximately 30 miles north of Salt Lake City, population: 12,479
+        "Tremonton",         // Approximately 75 miles north of Salt Lake City, population: 12,411
+        "Lindon",            // Approximately 35 miles south of Salt Lake City, population: 11,734
+        "North Logan",       // Approximately 80 miles north of Salt Lake City, population: 11,711
+        "Woods Cross",       // Approximately 9 miles north of Salt Lake City, population: 11,480
+        "Pleasant View",     // Approximately 45 miles north of Salt Lake City, population: 11,265
+            ]
   },
   {
     name: "Colorado",
