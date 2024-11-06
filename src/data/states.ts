@@ -1312,9 +1312,68 @@ export const states: State[] = [
             ]
   },
   {
-    name: "Indiana",
-    abbreviation: "IN",
-    cities: ["Indianapolis", "Fort Wayne", "Evansville", "South Bend", "Carmel"]
+    "name": "Indiana",
+    "abbreviation": "IN",
+    "cities": [
+        "Indianapolis",    // Major city, population: 888,578
+        "Fort Wayne",      // Major city, population: 269,994
+        "Evansville",      // Major city, population: 115,332
+        "South Bend",      // Major city, population: 103,395
+        "Carmel",          // Approximately 16 miles north of Indianapolis, population: 103,100
+        "Fishers",         // Approximately 17 miles northeast of Indianapolis, population: 104,094
+        "Bloomington",     // Approximately 50 miles southwest of Indianapolis, population: 79,168
+        "Hammond",         // Approximately 20 miles south of Chicago, population: 77,879
+        "Gary",            // Approximately 25 miles southeast of Chicago, population: 67,652
+        "Lafayette",       // Approximately 63 miles northwest of Indianapolis, population: 70,783
+        "Muncie",          // Approximately 60 miles northeast of Indianapolis, population: 65,195
+        "Noblesville",     // Approximately 25 miles north of Indianapolis, population: 69,604
+        "Terre Haute",     // Approximately 77 miles west of Indianapolis, population: 58,389
+        "Kokomo",          // Approximately 52 miles north of Indianapolis, population: 58,020
+        "Anderson",        // Approximately 40 miles northeast of Indianapolis, population: 54,788
+        "Greenwood",       // Approximately 15 miles south of Indianapolis, population: 63,830
+        "Elkhart",         // Approximately 15 miles east of South Bend, population: 53,923
+        "Mishawaka",       // Approximately 5 miles east of South Bend, population: 51,063
+        "Lawrence",        // Approximately 12 miles northeast of Indianapolis, population: 49,370
+        "Jeffersonville",  // Approximately 2 miles north of Louisville, KY, population: 49,447
+        "Columbus",        // Approximately 45 miles south of Indianapolis, population: 50,474
+        "Portage",         // Approximately 10 miles east of Gary, population: 37,926
+        "New Albany",      // Approximately 5 miles northwest of Louisville, KY, population: 37,841
+        "Richmond",        // Approximately 70 miles east of Indianapolis, population: 35,720
+        "Merrillville",    // Approximately 10 miles south of Gary, population: 35,246
+        "Goshen",          // Approximately 25 miles southeast of South Bend, population: 34,517
+        "Michigan City",   // Approximately 35 miles east of Gary, population: 31,015
+        "Westfield",       // Approximately 20 miles north of Indianapolis, population: 46,410
+        "West Lafayette",  // Approximately 65 miles northwest of Indianapolis, population: 44,595
+        "Valparaiso",      // Approximately 15 miles southeast of Gary, population: 34,151
+        "Marion",          // Approximately 70 miles northeast of Indianapolis, population: 28,310
+        "East Chicago",    // Approximately 20 miles southeast of Chicago, population: 26,370
+        "Schererville",    // Approximately 15 miles south of Gary, population: 29,210
+        "Hobart",          // Approximately 10 miles southeast of Gary, population: 28,573
+        "Plainfield",      // Approximately 15 miles southwest of Indianapolis, population: 35,287
+        "Munster",         // Approximately 25 miles southeast of Chicago, population: 23,603
+        "Franklin",        // Approximately 20 miles south of Indianapolis, population: 26,414
+        "La Porte",        // Approximately 60 miles east of Gary, population: 21,610
+        "Seymour",         // Approximately 60 miles south of Indianapolis, population: 21,569
+        "Crown Point",     // Approximately 10 miles south of Gary, population: 33,899
+        "Greenfield",      // Approximately 25 miles east of Indianapolis, population: 23,006
+        "Shelbyville",     // Approximately 30 miles southeast of Indianapolis, population: 19,191
+        "Logansport",      // Approximately 70 miles north of Indianapolis, population: 17,758
+        "New Castle",      // Approximately 50 miles east of Indianapolis, population: 17,396
+        "Vincennes",       // Approximately 120 miles southwest of Indianapolis, population: 16,149
+        "Bedford",         // Approximately 70 miles south of Indianapolis, population: 13,792
+        "Connersville",    // Approximately 60 miles east of Indianapolis, population: 13,481
+        "Warsaw",          // Approximately 40 miles west of Fort Wayne, population: 15,263
+        "Auburn",          // Approximately 20 miles north of Fort Wayne, population: 13,086
+        "Madison",         // Approximately 90 miles southeast of Indianapolis, population: 11,777
+        "Peru",            // Approximately 80 miles north of Indianapolis, population: 11,073
+        "Greensburg",      // Approximately 50 miles southeast of Indianapolis, population: 11,492
+        "Crawfordsville",  // Approximately 50 miles northwest of Indianapolis, population: 16,024
+        "Lebanon",         // Approximately 30 miles northwest of Indianapolis, population: 16,098
+        "Frankfort",       // Approximately 45 miles northwest of Indianapolis, population: 16,422
+        "Jasper",          // Approximately 120 miles southwest of Indianapolis, population: 15,451
+        "Huntington",      // Approximately 25 miles southwest of Fort Wayne, population: 17,022
+        "Wabash",          // Approximately 85 miles north of Indianapolis, population: 10,381
+            ]
   },
   {
     name: "Ohio",
