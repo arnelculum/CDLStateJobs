@@ -8,7 +8,7 @@ interface State {
 const activeHiringStates = [
   'WA', 'OR', 'WY', 'UT', 'AZ', 'CO', 'TX', 'OK', 
   'KS', 'NE', 'MN', 'IA', 'MO', 'AR', 'LA', 'MS', 
-  'WI', 'IL', 'IN', 'DE'
+  'WI', 'IL', 'IN', 'DE', 'ID'  // Added Idaho
 ];
 
 export const states: State[] = [
