@@ -807,9 +807,74 @@ export const states: State[] = [
     cities: ["Jacksonville", "Miami", "Tampa", "Orlando", "St. Petersburg"]
   },
   {
-    name: "Minnesota",
-    abbreviation: "MN",
-    cities: ["Minneapolis", "Saint Paul", "Rochester", "Bloomington", "Duluth"]
+    "name": "Minnesota",
+    "abbreviation": "MN",
+    "cities": [
+        "Minneapolis",        // Major city, population: 425,115
+        "St. Paul",           // Major city, population: 303,820
+        "Rochester",          // Major city, population: 122,413
+        "Duluth",             // Major city, population: 87,680
+        "Bloomington",        // Approximately 10 miles south of Minneapolis, population: 87,398
+        "Brooklyn Park",      // Approximately 10 miles northwest of Minneapolis, population: 82,017
+        "Woodbury",           // Approximately 10 miles east of St. Paul, population: 79,538
+        "Plymouth",           // Approximately 10 miles west of Minneapolis, population: 77,648
+        "Lakeville",          // Approximately 20 miles south of Minneapolis, population: 76,243
+        "Blaine",             // Approximately 15 miles north of Minneapolis, population: 73,774
+        "Maple Grove",        // Approximately 15 miles northwest of Minneapolis, population: 71,288
+        "St. Cloud",          // Approximately 65 miles northwest of Minneapolis, population: 71,013
+        "Eagan",              // Approximately 15 miles south of St. Paul, population: 67,396
+        "Burnsville",         // Approximately 15 miles south of Minneapolis, population: 64,772
+        "Coon Rapids",        // Approximately 15 miles north of Minneapolis, population: 63,377
+        "Eden Prairie",       // Approximately 15 miles southwest of Minneapolis, population: 62,166
+        "Apple Valley",       // Approximately 20 miles south of Minneapolis, population: 55,336
+        "Edina",              // Approximately 10 miles southwest of Minneapolis, population: 53,348
+        "Minnetonka",         // Approximately 10 miles west of Minneapolis, population: 52,463
+        "St. Louis Park",     // Approximately 5 miles west of Minneapolis, population: 49,697
+        "Shakopee",           // Approximately 20 miles southwest of Minneapolis, population: 47,158
+        "Mankato",            // Approximately 80 miles southwest of Minneapolis, population: 45,742
+        "Moorhead",           // Approximately 230 miles northwest of Minneapolis, population: 45,202
+        "Cottage Grove",      // Approximately 10 miles southeast of St. Paul, population: 42,056
+        "Maplewood",          // Approximately 5 miles north of St. Paul, population: 39,958
+        "Richfield",          // Approximately 5 miles south of Minneapolis, population: 36,445
+        "Inver Grove Heights", // Approximately 10 miles southeast of St. Paul, population: 36,114
+        "Roseville",          // Approximately 5 miles north of St. Paul, population: 35,451
+        "Andover",            // Approximately 20 miles north of Minneapolis, population: 33,089
+        "Savage",             // Approximately 20 miles southwest of Minneapolis, population: 32,999
+        "Brooklyn Center",    // Approximately 10 miles northwest of Minneapolis, population: 31,688
+        "Fridley",            // Approximately 10 miles north of Minneapolis, population: 30,156
+        "Chaska",             // Approximately 25 miles southwest of Minneapolis, population: 29,034
+        "Ramsey",             // Approximately 25 miles northwest of Minneapolis, population: 28,560
+        "Oakdale",            // Approximately 10 miles east of St. Paul, population: 28,226
+        "Prior Lake",         // Approximately 25 miles southwest of Minneapolis, population: 28,027
+        "Rosemount",          // Approximately 20 miles south of St. Paul, population: 27,590
+        "Elk River",          // Approximately 35 miles northwest of Minneapolis, population: 27,342
+        "Owatonna",           // Approximately 65 miles south of Minneapolis, population: 26,534
+        "Shoreview",          // Approximately 10 miles north of St. Paul, population: 26,374
+        "Austin",             // Approximately 100 miles south of Minneapolis, population: 26,171
+        "Winona",             // Approximately 115 miles southeast of Minneapolis, population: 26,029
+        "Chanhassen",         // Approximately 20 miles southwest of Minneapolis, population: 25,937
+        "Faribault",          // Approximately 50 miles south of Minneapolis, population: 24,642
+        "Farmington",         // Approximately 25 miles south of Minneapolis, population: 23,909
+        "White Bear Lake",    // Approximately 15 miles northeast of St. Paul, population: 23,363
+        "Otsego",             // Approximately 30 miles northwest of Minneapolis, population: 23,241
+        "Champlin",           // Approximately 20 miles northwest of Minneapolis, population: 22,856
+        "Lino Lakes",         // Approximately 15 miles north of St. Paul, population: 22,376
+        "Columbia Heights",   // Approximately 5 miles north of Minneapolis, population: 22,278
+        "New Brighton",       // Approximately 10 miles north of Minneapolis, population: 22,228
+        "Hastings",           // Approximately 25 miles southeast of St. Paul, population: 22,121
+        "Crystal",            // Approximately 10 miles northwest of Minneapolis, population: 21,906
+        "West St. Paul",      // Approximately 5 miles south of St. Paul, population: 21,863
+        "Robbinsdale",        // Approximately 5 miles northwest of Minneapolis, population: 21,760
+        "Forest Lake",        // Approximately 25 miles northeast of St. Paul, population: 21,611
+        "New Hope",           // Approximately 10 miles northwest of Minneapolis, population: 21,373
+        "Stillwater",         // Approximately 20 miles east of St. Paul, population: 21,197
+        "South St. Paul",     // Approximately 5 miles south of St. Paul, population: 20,759
+        "Waconia",            // Approximately 30 miles southwest of Minneapolis, population: 20,697
+        "Northfield",         // Approximately 40 miles south of Minneapolis, population: 20,454
+        "Coon Rapids",        // Approximately 15 miles north of Minneapolis, population: 63,377
+        "Eden Prairie",       // Approximately 15 miles southwest of Minneapolis, population: 62,166
+        "Apple Valley",       // Approximately 20 miles south of Minneapolis, population: 55,336
+            ]
   },
   {
     name: "Wisconsin",
