@@ -988,9 +988,73 @@ export const states: State[] = [
             ]
   },
   {
-    name: "Arkansas",
-    abbreviation: "AR",
-    cities: ["Little Rock", "Fort Smith", "Fayetteville", "Springdale", "Jonesboro"]
+    "name": "Arkansas",
+    "abbreviation": "AR",
+    "cities": [
+        "Little Rock",        // Major city, population: 202,591
+        "Fort Smith",         // Major city, population: 89,142
+        "Fayetteville",       // Major city, population: 93,949
+        "Springdale",         // Approximately 10 miles north of Fayetteville, population: 81,799
+        "Jonesboro",          // Approximately 130 miles northeast of Little Rock, population: 78,576
+        "North Little Rock",  // Approximately 5 miles north of Little Rock, population: 66,075
+        "Conway",             // Approximately 30 miles northwest of Little Rock, population: 67,638
+        "Rogers",             // Approximately 20 miles north of Fayetteville, population: 70,522
+        "Pine Bluff",         // Approximately 45 miles southeast of Little Rock, population: 41,474
+        "Bentonville",        // Approximately 25 miles north of Fayetteville, population: 57,545
+        "Hot Springs",        // Approximately 55 miles southwest of Little Rock, population: 38,797
+        "Benton",             // Approximately 25 miles southwest of Little Rock, population: 37,214
+        "Sherwood",           // Approximately 10 miles north of Little Rock, population: 32,731
+        "Texarkana",          // Approximately 140 miles southwest of Little Rock, population: 29,657
+        "Russellville",       // Approximately 75 miles northwest of Little Rock, population: 29,338
+        "Bella Vista",        // Approximately 35 miles north of Fayetteville, population: 30,104
+        "Paragould",          // Approximately 150 miles northeast of Little Rock, population: 28,986
+        "Cabot",              // Approximately 25 miles northeast of Little Rock, population: 26,573
+        "Searcy",             // Approximately 50 miles northeast of Little Rock, population: 23,768
+        "Van Buren",          // Approximately 5 miles north of Fort Smith, population: 23,218
+        "El Dorado",          // Approximately 120 miles south of Little Rock, population: 17,651
+        "Maumelle",           // Approximately 15 miles northwest of Little Rock, population: 19,251
+        "Bryant",             // Approximately 20 miles southwest of Little Rock, population: 21,530
+        "Siloam Springs",     // Approximately 30 miles northwest of Fayetteville, population: 17,287
+        "Forrest City",       // Approximately 90 miles east of Little Rock, population: 14,048
+        "Mountain Home",      // Approximately 150 miles north of Little Rock, population: 12,825
+        "Blytheville",        // Approximately 60 miles north of Jonesboro, population: 13,406
+        "Hope",               // Approximately 110 miles southwest of Little Rock, population: 9,599
+        "Magnolia",           // Approximately 130 miles southwest of Little Rock, population: 11,570
+        "Arkadelphia",        // Approximately 65 miles southwest of Little Rock, population: 10,380
+        "Helena-West Helena", // Approximately 90 miles southeast of Little Rock, population: 10,032
+        "West Memphis",       // Approximately 130 miles east of Little Rock, population: 24,520
+        "Marion",             // Approximately 10 miles north of West Memphis, population: 12,345
+        "Malvern",            // Approximately 45 miles southwest of Little Rock, population: 10,931
+        "Camden",             // Approximately 100 miles south of Little Rock, population: 11,157
+        "Stuttgart",          // Approximately 50 miles southeast of Little Rock, population: 8,675
+        "Greenwood",          // Approximately 15 miles southeast of Fort Smith, population: 9,397
+        "Harrison",           // Approximately 140 miles north of Little Rock, population: 13,080
+        "Batesville",         // Approximately 90 miles northeast of Little Rock, population: 10,248
+        "Newport",            // Approximately 90 miles northeast of Little Rock, population: 7,552
+        "Osceola",            // Approximately 50 miles north of West Memphis, population: 6,976
+        "Wynne",              // Approximately 100 miles east of Little Rock, population: 8,367
+        "Monticello",         // Approximately 90 miles southeast of Little Rock, population: 9,467
+        "Clarksville",        // Approximately 100 miles northwest of Little Rock, population: 9,448
+        "Trumann",            // Approximately 15 miles south of Jonesboro, population: 7,243
+        "Warren",             // Approximately 90 miles south of Little Rock, population: 5,562
+        "Dumas",              // Approximately 90 miles southeast of Little Rock, population: 4,001
+        "De Queen",           // Approximately 150 miles southwest of Little Rock, population: 6,629
+        "Gentry",             // Approximately 35 miles northwest of Fayetteville, population: 3,621
+        "Gravette",           // Approximately 40 miles northwest of Fayetteville, population: 3,362
+        "Pea Ridge",          // Approximately 30 miles north of Fayetteville, population: 5,714
+        "Prairie Grove",      // Approximately 15 miles west of Fayetteville, population: 6,380
+        "Centerton",          // Approximately 25 miles north of Fayetteville, population: 16,244
+        "Lowell",             // Approximately 15 miles north of Fayetteville, population: 9,715
+        "Farmington",         // Approximately 10 miles west of Fayetteville, population: 7,584
+        "Greenbrier",         // Approximately 40 miles north of Little Rock, population: 5,706
+        "Beebe",              // Approximately 35 miles northeast of Little Rock, population: 8,019
+        "Heber Springs",      // Approximately 65 miles north of Little Rock, population: 7,165
+        "Mena",               // Approximately 120 miles west of Little Rock, population: 5,558
+        "Pocahontas",         // Approximately 150 miles northeast of Little Rock, population: 6,616
+        "Paragould",          // Approximately 150 miles northeast of Little Rock, population: 28,986
+        "Rogers",             // Approximately 20 miles north of Fayetteville, population: 70,522
+        "Searcy",             // Approximately 50 miles northeast of Little Rock, population: 23,768
+            ]
   },
   {
     name: "Louisiana",
