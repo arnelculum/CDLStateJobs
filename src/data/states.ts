@@ -1126,9 +1126,54 @@ export const states: State[] = [
             ]
   },
   {
-    name: "Mississippi",
-    abbreviation: "MS",
-    cities: ["Jackson", "Gulfport", "Southaven", "Biloxi", "Hattiesburg"]
+    "name": "Mississippi",
+    "abbreviation": "MS",
+    "cities": [
+        "Jackson",        // Major city, population: 143,709
+        "Gulfport",       // Major city, population: 72,823
+        "Southaven",      // Major city, population: 56,851
+        "Hattiesburg",    // Major city, population: 48,414
+        "Biloxi",         // Major city, population: 48,235
+        "Olive Branch",   // Approximately 20 miles southeast of Memphis, TN, population: 47,029
+        "Tupelo",         // Approximately 100 miles southeast of Memphis, TN, population: 37,675
+        "Meridian",       // Approximately 90 miles east of Jackson, population: 33,551
+        "Pearl",          // Approximately 5 miles east of Jackson, population: 28,117
+        "Madison",        // Approximately 15 miles north of Jackson, population: 27,987
+        "Greenville",     // Approximately 120 miles northwest of Jackson, population: 27,644
+        "Oxford",         // Approximately 75 miles south of Memphis, TN, population: 27,008
+        "Clinton",        // Approximately 10 miles west of Jackson, population: 26,698
+        "Horn Lake",      // Approximately 15 miles south of Memphis, TN, population: 26,468
+        "Brandon",        // Approximately 15 miles east of Jackson, population: 25,719
+        "Starkville",     // Approximately 125 miles northeast of Jackson, population: 25,444
+        "Ridgeland",      // Approximately 10 miles north of Jackson, population: 24,459
+        "Columbus",       // Approximately 150 miles northeast of Jackson, population: 23,035
+        "Pascagoula",     // Approximately 90 miles southeast of Hattiesburg, population: 21,582
+        "Vicksburg",      // Approximately 45 miles west of Jackson, population: 20,192
+        "Gautier",        // Approximately 5 miles west of Pascagoula, population: 19,021
+        "Ocean Springs",  // Approximately 5 miles east of Biloxi, population: 18,997
+        "Hernando",       // Approximately 25 miles south of Memphis, TN, population: 18,239
+        "Long Beach",     // Approximately 10 miles west of Gulfport, population: 16,991
+        "Laurel",         // Approximately 30 miles north of Hattiesburg, population: 16,979
+        "Corinth",        // Approximately 100 miles east of Memphis, TN, population: 14,259
+        "Natchez",        // Approximately 100 miles southwest of Jackson, population: 13,933
+        "Clarksdale",     // Approximately 75 miles south of Memphis, TN, population: 13,850
+        "Greenwood",      // Approximately 90 miles north of Jackson, population: 13,421
+        "D'Iberville",    // Approximately 5 miles north of Biloxi, population: 13,286
+        "Byram",          // Approximately 10 miles south of Jackson, population: 12,651
+        "Grenada",        // Approximately 100 miles north of Jackson, population: 12,267
+        "McComb",         // Approximately 80 miles south of Jackson, population: 11,914
+        "Moss Point",     // Approximately 5 miles north of Pascagoula, population: 11,890
+        "Picayune",       // Approximately 40 miles southeast of Hattiesburg, population: 11,862
+        "Brookhaven",     // Approximately 60 miles south of Jackson, population: 11,571
+        "Petal",          // Approximately 5 miles east of Hattiesburg, population: 11,403
+        "Canton",         // Approximately 20 miles north of Jackson, population: 10,742
+        "Flowood",        // Approximately 5 miles northeast of Jackson, population: 10,675
+        "Bay St. Louis",  // Approximately 20 miles west of Gulfport, population: 10,426
+        "Cleveland",      // Approximately 120 miles northwest of Jackson, population: 10,387
+        "Ridgeland",      // Approximately 10 miles north of Jackson, population: 10,073
+        "Diamondhead",    // Approximately 15 miles west of Gulfport, population: 9,486
+        "Indianola",      // Approximately 100 miles northwest of Jackson, population: 9,434
+            ]
   },
   {
     name: "Illinois",
