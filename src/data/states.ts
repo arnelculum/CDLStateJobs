@@ -927,9 +927,65 @@ export const states: State[] = [
             ]
   },
   {
-    name: "Missouri",
-    abbreviation: "MO",
-    cities: ["Kansas City", "St. Louis", "Springfield", "Columbia", "Independence"]
+    "name": "Missouri",
+    "abbreviation": "MO",
+    "cities": [
+        "Kansas City",        // Major city, population: 510,704
+        "St. Louis",          // Major city, population: 281,754
+        "Springfield",        // Major city, population: 170,188
+        "Columbia",           // Major city, population: 129,330
+        "Independence",       // Approximately 10 miles east of Kansas City, population: 120,922
+        "Lee's Summit",       // Approximately 20 miles southeast of Kansas City, population: 104,184
+        "O'Fallon",           // Approximately 35 miles northwest of St. Louis, population: 94,074
+        "St. Joseph",         // Approximately 55 miles north of Kansas City, population: 70,634
+        "St. Charles",        // Approximately 25 miles northwest of St. Louis, population: 71,800
+        "Blue Springs",       // Approximately 20 miles east of Kansas City, population: 60,539
+        "Florissant",         // Approximately 15 miles northwest of St. Louis, population: 52,533
+        "Joplin",             // Approximately 150 miles south of Kansas City, population: 51,762
+        "Chesterfield",       // Approximately 20 miles west of St. Louis, population: 49,999
+        "Jefferson City",     // State capital, approximately 125 miles west of St. Louis, population: 42,552
+        "Cape Girardeau",     // Approximately 115 miles southeast of St. Louis, population: 39,540
+        "Wildwood",           // Approximately 25 miles west of St. Louis, population: 35,417
+        "University City",    // Approximately 10 miles west of St. Louis, population: 34,165
+        "Ballwin",            // Approximately 20 miles west of St. Louis, population: 30,404
+        "Raytown",            // Approximately 10 miles southeast of Kansas City, population: 29,526
+        "Liberty",            // Approximately 15 miles northeast of Kansas City, population: 30,167
+        "Wentzville",         // Approximately 40 miles northwest of St. Louis, population: 44,372
+        "Kirkwood",           // Approximately 15 miles southwest of St. Louis, population: 27,659
+        "Maryland Heights",   // Approximately 20 miles northwest of St. Louis, population: 27,472
+        "Gladstone",          // Approximately 10 miles north of Kansas City, population: 27,063
+        "Grandview",          // Approximately 15 miles south of Kansas City, population: 25,431
+        "Hazelwood",          // Approximately 20 miles northwest of St. Louis, population: 25,117
+        "Belton",             // Approximately 20 miles south of Kansas City, population: 23,116
+        "Webster Groves",     // Approximately 10 miles southwest of St. Louis, population: 23,055
+        "Sedalia",            // Approximately 90 miles east of Kansas City, population: 21,387
+        "Rolla",              // Approximately 100 miles southwest of St. Louis, population: 20,169
+        "Raymore",            // Approximately 25 miles south of Kansas City, population: 22,941
+        "Nixa",               // Approximately 15 miles south of Springfield, population: 23,257
+        "Ozark",              // Approximately 20 miles south of Springfield, population: 21,284
+        "Warrensburg",        // Approximately 60 miles east of Kansas City, population: 20,168
+        "Ferguson",           // Approximately 15 miles north of St. Louis, population: 18,527
+        "Arnold",             // Approximately 20 miles south of St. Louis, population: 20,858
+        "Poplar Bluff",       // Approximately 150 miles south of St. Louis, population: 16,937
+        "Rolla",              // Approximately 100 miles southwest of St. Louis, population: 20,169
+        "Sikeston",           // Approximately 145 miles south of St. Louis, population: 16,291
+        "Farmington",         // Approximately 75 miles south of St. Louis, population: 18,515
+        "Hannibal",           // Approximately 100 miles north of St. Louis, population: 17,266
+        "Kirksville",         // Approximately 150 miles north of Columbia, population: 17,505
+        "Lebanon",            // Approximately 55 miles northeast of Springfield, population: 14,688
+        "Marshall",           // Approximately 80 miles east of Kansas City, population: 12,711
+        "Moberly",            // Approximately 35 miles north of Columbia, population: 13,974
+        "Neosho",             // Approximately 20 miles south of Joplin, population: 12,512
+        "West Plains",        // Approximately 100 miles east of Springfield, population: 12,089
+        "Carthage",           // Approximately 15 miles northeast of Joplin, population: 14,746
+        "Excelsior Springs",  // Approximately 30 miles northeast of Kansas City, population: 10,570
+        "Mexico",             // Approximately 40 miles northeast of Columbia, population: 11,483
+        "Fulton",             // Approximately 25 miles northeast of Jefferson City, population: 12,650
+        "Bridgeton",          // Approximately 20 miles northwest of St. Louis, population: 11,418
+        "Maryville",          // Approximately 95 miles north of Kansas City, population: 10,903
+        "Kennett",            // Approximately 200 miles south of St. Louis, population: 10,439
+        "Harrisonville",      // Approximately 35 miles south of Kansas City, population: 10,129
+            ]
   },
   {
     name: "Arkansas",
