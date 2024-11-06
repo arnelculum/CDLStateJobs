@@ -14,7 +14,7 @@ export default function Navbar() {
               <img 
                 src="https://primepulsemedia.com/wp-content/uploads/2024/11/cdl-jobs-by-state.jpg" 
                 alt="CDL Jobs" 
-                className="h-10" // Adjust height as needed
+                className="h-20" // Adjust height as needed
               />
             </Link>
           </div>
