@@ -12,9 +12,9 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img 
-                src="https://primepulsemedia.com/wp-content/uploads/2024/11/cdl-jobs-by-state.jpg" 
+                src="https://primepulsemedia.com/wp-content/uploads/2024/11/cdljobsbystate2.jpg" 
                 alt="CDL Jobs" 
-                className="h-20" // Adjust height as needed
+                className="h-18" // Adjust height as needed
               />
             </Link>
           </div>
