@@ -542,9 +542,54 @@ export const states: State[] = [
     cities: ["Wichita", "Overland Park", "Kansas City", "Olathe", "Topeka"]
   },
   {
-    name: "Oklahoma",
-    abbreviation: "OK",
-    cities: ["Oklahoma City", "Tulsa", "Norman", "Broken Arrow", "Edmond"]
+    "name": "Oklahoma",
+    "abbreviation": "OK",
+    "cities": [
+        "Oklahoma City",    // Major city, population: 709,330
+        "Tulsa",            // Major city, population: 411,894
+        "Norman",           // Approximately 20 miles south of Oklahoma City, population: 130,046
+        "Broken Arrow",     // Approximately 15 miles southeast of Tulsa, population: 119,194
+        "Edmond",           // Approximately 15 miles north of Oklahoma City, population: 98,103
+        "Lawton",           // Approximately 90 miles southwest of Oklahoma City, population: 90,517
+        "Moore",            // Approximately 10 miles south of Oklahoma City, population: 63,503
+        "Midwest City",     // Approximately 10 miles east of Oklahoma City, population: 58,466
+        "Enid",             // Approximately 70 miles north of Oklahoma City, population: 51,149
+        "Stillwater",       // Approximately 65 miles northeast of Oklahoma City, population: 47,885
+        "Owasso",           // Approximately 15 miles north of Tulsa, population: 38,468
+        "Bartlesville",     // Approximately 45 miles north of Tulsa, population: 37,289
+        "Muskogee",         // Approximately 50 miles southeast of Tulsa, population: 36,867
+        "Shawnee",          // Approximately 40 miles east of Oklahoma City, population: 31,290
+        "Bixby",            // Approximately 20 miles south of Tulsa, population: 28,801
+        "Jenks",            // Approximately 12 miles south of Tulsa, population: 26,125
+        "Ardmore",          // Approximately 100 miles south of Oklahoma City, population: 24,787
+        "Ponca City",       // Approximately 90 miles north of Oklahoma City, population: 24,309
+        "Yukon",            // Approximately 15 miles west of Oklahoma City, population: 23,763
+        "Duncan",           // Approximately 80 miles southwest of Oklahoma City, population: 22,576
+        "Sapulpa",          // Approximately 15 miles southwest of Tulsa, population: 21,981
+        "Del City",         // Approximately 5 miles east of Oklahoma City, population: 21,828
+        "Bethany",          // Approximately 10 miles west of Oklahoma City, population: 20,708
+        "Mustang",          // Approximately 20 miles southwest of Oklahoma City, population: 20,092
+        "Sand Springs",     // Approximately 10 miles west of Tulsa, population: 19,940
+        "Claremore",        // Approximately 25 miles northeast of Tulsa, population: 19,182
+        "Durant",           // Approximately 150 miles southeast of Oklahoma City, population: 18,703
+        "Altus",            // Approximately 140 miles southwest of Oklahoma City, population: 18,677
+        "McAlester",        // Approximately 130 miles southeast of Oklahoma City, population: 18,269
+        "El Reno",          // Approximately 25 miles west of Oklahoma City, population: 17,183
+        "Ada",              // Approximately 85 miles southeast of Oklahoma City, population: 16,739
+        "Tahlequah",        // Approximately 70 miles east of Tulsa, population: 16,174
+        "Chickasha",        // Approximately 40 miles southwest of Oklahoma City, population: 15,545
+        "Glenpool",         // Approximately 15 miles south of Tulsa, population: 13,736
+        "Miami",            // Approximately 90 miles northeast of Tulsa, population: 12,866
+        "Guymon",           // Approximately 240 miles northwest of Oklahoma City, population: 12,836
+        "Choctaw",          // Approximately 15 miles east of Oklahoma City, population: 12,218
+        "Woodward",         // Approximately 140 miles northwest of Oklahoma City, population: 12,121
+        "Weatherford",      // Approximately 70 miles west of Oklahoma City, population: 12,070
+        "Elk City",         // Approximately 110 miles west of Oklahoma City, population: 11,725
+        "Newcastle",        // Approximately 20 miles south of Oklahoma City, population: 11,207
+        "Okmulgee",         // Approximately 40 miles south of Tulsa, population: 11,189
+        "Guthrie",          // Approximately 30 miles north of Oklahoma City, population: 10,808
+        "Warr Acres",       // Approximately 10 miles northwest of Oklahoma City, population: 10,451
+            ]
   },
   {
     "name": "Texas",
