@@ -537,9 +537,46 @@ export const states: State[] = [
     cities: ["Omaha", "Lincoln", "Bellevue", "Grand Island", "Kearney"]
   },
   {
-    name: "Kansas",
-    abbreviation: "KS",
-    cities: ["Wichita", "Overland Park", "Kansas City", "Olathe", "Topeka"]
+    "name": "Kansas",
+    "abbreviation": "KS",
+    "cities": [
+        "Wichita",          // Major city, population: 396,119
+        "Overland Park",    // Major city, population: 197,089
+        "Kansas City",      // Major city, population: 152,933
+        "Olathe",           // Approximately 20 miles southwest of Kansas City, population: 147,461
+        "Topeka",           // Approximately 60 miles west of Kansas City, population: 125,475
+        "Lawrence",         // Approximately 40 miles west of Kansas City, population: 96,207
+        "Shawnee",          // Approximately 10 miles west of Kansas City, population: 69,417
+        "Lenexa",           // Approximately 15 miles southwest of Kansas City, population: 58,536
+        "Manhattan",        // Approximately 120 miles west of Kansas City, population: 53,682
+        "Salina",           // Approximately 90 miles north of Wichita, population: 45,792
+        "Hutchinson",       // Approximately 50 miles northwest of Wichita, population: 39,662
+        "Leavenworth",      // Approximately 30 miles northwest of Kansas City, population: 37,034
+        "Leawood",          // Approximately 10 miles south of Kansas City, population: 33,980
+        "Dodge City",       // Approximately 150 miles west of Wichita, population: 27,514
+        "Garden City",      // Approximately 200 miles west of Wichita, population: 27,371
+        "Derby",            // Approximately 10 miles south of Wichita, population: 26,233
+        "Gardner",          // Approximately 30 miles southwest of Kansas City, population: 25,378
+        "Emporia",          // Approximately 90 miles southwest of Kansas City, population: 24,105
+        "Prairie Village",  // Approximately 10 miles south of Kansas City, population: 22,900
+        "Junction City",    // Approximately 130 miles west of Kansas City, population: 21,856
+        "Hays",             // Approximately 200 miles west of Topeka, population: 21,040
+        "Pittsburg",        // Approximately 120 miles south of Kansas City, population: 20,504
+        "Liberal",          // Approximately 200 miles southwest of Wichita, population: 18,999
+        "Newton",           // Approximately 25 miles north of Wichita, population: 18,251
+        "Andover",          // Approximately 15 miles east of Wichita, population: 15,814
+        "Great Bend",       // Approximately 110 miles northwest of Wichita, population: 14,372
+        "McPherson",        // Approximately 60 miles north of Wichita, population: 13,906
+        "El Dorado",        // Approximately 30 miles east of Wichita, population: 12,919
+        "Ottawa",           // Approximately 50 miles southwest of Kansas City, population: 12,686
+        "Arkansas City",    // Approximately 60 miles south of Wichita, population: 11,765
+        "Winfield",         // Approximately 50 miles south of Wichita, population: 11,669
+        "Haysville",        // Approximately 10 miles south of Wichita, population: 11,268
+        "Lansing",          // Approximately 25 miles northwest of Kansas City, population: 11,221
+        "Merriam",          // Approximately 10 miles southwest of Kansas City, population: 10,875
+        "Atchison",         // Approximately 50 miles northwest of Kansas City, population: 10,670
+        "Mission",          // Approximately 10 miles southwest of Kansas City, population: 10,014
+            ]
   },
   {
     "name": "Oklahoma",
