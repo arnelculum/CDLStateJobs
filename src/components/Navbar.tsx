@@ -11,7 +11,11 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-[#2557a7] font-bold text-2xl">CDL Jobs</span>
+              <img 
+                src="https://primepulsemedia.com/wp-content/uploads/2024/11/cdl-jobs-by-state.jpg" 
+                alt="CDL Jobs" 
+                className="h-10" // Adjust height as needed
+              />
             </Link>
           </div>
 
