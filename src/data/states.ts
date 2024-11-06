@@ -1434,14 +1434,14 @@ export const generateJobListings = () => {
     benefits: defaultBenefits
 },
         {
-          title: 'Lease Operator',
-          company: 'Giltner Transportation',
-          location: `${city}, ${state.abbreviation}`,
-          pay: '73% of Line Haul',
-          postedDate: '2 days ago',
-          description: `Become a lease operator with us in ${city}. Run your own business with our support and enjoy the freedom of being your own boss while having the stability of working with an established carrier in ${state.name}.`,
-          benefits: leaseOperatorBenefits
-        }
+  title: 'Lease Operator',
+  company: 'Giltner Transportation',
+  location: `${city}, ${state.abbreviation}`,
+  pay: '73% of Line Haul',
+  postedDate: '2 days ago',
+  description: `Elevate your trucking career by becoming a Lease Operator with Giltner Transportation in ${city}, ${state.abbreviation}. Operate your own business with the robust support of a reputable carrier, enjoying the autonomy of being your own boss. Our comprehensive lease program offers competitive earnings, including 73% of the Line Haul and 100% of the Fuel Surcharge. Benefit from EFS Fuel Card Discounts, access to new equipment with extended warranties, and flexible home time. Designed for entrepreneurial drivers, our program provides the freedom and stability you deserve in ${state.name}.`,
+  benefits: leaseOperatorBenefits
+}
       ]);
     } else {
       // For non-hiring states, return empty array
