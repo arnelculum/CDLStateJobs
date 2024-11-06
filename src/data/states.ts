@@ -877,9 +877,74 @@ export const states: State[] = [
             ]
   },
   {
-    name: "Wisconsin",
-    abbreviation: "WI",
-    cities: ["Milwaukee", "Madison", "Green Bay", "Kenosha", "Racine"]
+    "name": "Wisconsin",
+    "abbreviation": "WI",
+    "cities": [
+        "Milwaukee",        // Major city, population: 592,649
+        "Madison",          // Major city, population: 258,366
+        "Green Bay",        // Major city, population: 104,508
+        "Kenosha",          // Major city, population: 99,767
+        "Racine",           // Approximately 22 miles south of Milwaukee, population: 76,893
+        "Appleton",         // Approximately 30 miles southwest of Green Bay, population: 73,891
+        "Waukesha",         // Approximately 20 miles west of Milwaukee, population: 72,419
+        "Eau Claire",       // Approximately 90 miles east of Minneapolis, MN, population: 68,720
+        "Oshkosh",          // Approximately 20 miles south of Appleton, population: 66,753
+        "Janesville",       // Approximately 40 miles southeast of Madison, population: 64,415
+        "West Allis",       // Approximately 5 miles west of Milwaukee, population: 59,861
+        "La Crosse",        // Approximately 140 miles northwest of Madison, population: 51,543
+        "Sheboygan",        // Approximately 50 miles north of Milwaukee, population: 48,153
+        "Wauwatosa",        // Approximately 5 miles west of Milwaukee, population: 48,143
+        "Fond du Lac",      // Approximately 60 miles north of Milwaukee, population: 42,944
+        "New Berlin",       // Approximately 15 miles southwest of Milwaukee, population: 39,794
+        "Wausau",           // Approximately 90 miles northwest of Green Bay, population: 38,685
+        "Brookfield",       // Approximately 15 miles west of Milwaukee, population: 38,626
+        "Menomonee Falls",  // Approximately 15 miles northwest of Milwaukee, population: 37,611
+        "Greenfield",       // Approximately 10 miles southwest of Milwaukee, population: 37,117
+        "Beloit",           // Approximately 50 miles southeast of Madison, population: 36,804
+        "Oak Creek",        // Approximately 15 miles south of Milwaukee, population: 36,321
+        "Franklin",         // Approximately 15 miles southwest of Milwaukee, population: 36,013
+        "Sun Prairie",      // Approximately 15 miles northeast of Madison, population: 33,954
+        "Manitowoc",        // Approximately 40 miles southeast of Green Bay, population: 32,558
+        "West Bend",        // Approximately 30 miles north of Milwaukee, population: 31,587
+        "Fitchburg",        // Approximately 10 miles south of Madison, population: 30,032
+        "Mount Pleasant",   // Approximately 25 miles south of Milwaukee, population: 27,008
+        "Superior",         // Approximately 150 miles northeast of Minneapolis, MN, population: 26,260
+        "Stevens Point",    // Approximately 110 miles north of Madison, population: 26,144
+        "Neenah",           // Approximately 40 miles southwest of Green Bay, population: 26,083
+        "Caledonia",        // Approximately 20 miles south of Milwaukee, population: 25,182
+        "Muskego",          // Approximately 20 miles southwest of Milwaukee, population: 25,077
+        "De Pere",          // Approximately 7 miles south of Green Bay, population: 25,009
+        "Mequon",           // Approximately 15 miles north of Milwaukee, population: 24,357
+        "Watertown",        // Approximately 50 miles west of Milwaukee, population: 23,561
+        "Pleasant Prairie", // Approximately 35 miles south of Milwaukee, population: 20,969
+        "South Milwaukee",  // Approximately 10 miles south of Milwaukee, population: 20,857
+        "Germantown",       // Approximately 20 miles northwest of Milwaukee, population: 20,142
+        "Howard",           // Approximately 5 miles northwest of Green Bay, population: 19,879
+        "Middleton",        // Approximately 10 miles west of Madison, population: 19,764
+        "Onalaska",         // Approximately 5 miles north of La Crosse, population: 18,814
+        "Menasha",          // Approximately 35 miles southwest of Green Bay, population: 18,280
+        "Marshfield",       // Approximately 150 miles northwest of Madison, population: 18,214
+        "Cudahy",           // Approximately 10 miles south of Milwaukee, population: 18,211
+        "Wisconsin Rapids", // Approximately 110 miles north of Madison, population: 17,691
+        "Ashwaubenon",      // Approximately 5 miles southwest of Green Bay, population: 17,130
+        "Oconomowoc",       // Approximately 35 miles west of Milwaukee, population: 16,931
+        "Menomonie",        // Approximately 70 miles east of Minneapolis, MN, population: 16,479
+        "Beaver Dam",       // Approximately 40 miles northeast of Madison, population: 16,322
+        "River Falls",      // Approximately 30 miles east of Minneapolis, MN, population: 16,182
+        "Hudson",           // Approximately 20 miles east of Minneapolis, MN, population: 14,437
+        "Whitewater",       // Approximately 50 miles southeast of Madison, population: 14,390
+        "Baraboo",          // Approximately 40 miles northwest of Madison, population: 12,556
+        "Port Washington",  // Approximately 25 miles north of Milwaukee, population: 12,353
+        "Monroe",           // Approximately 45 miles south of Madison, population: 10,827
+        "Stoughton",        // Approximately 20 miles southeast of Madison, population: 13,134
+        "Pewaukee",         // Approximately 20 miles west of Milwaukee, population: 14,112
+        "Hartford",         // Approximately 35 miles northwest of Milwaukee, population: 15,300
+        "Verona",           // Approximately 10 miles southwest of Madison, population: 13,233
+        "Sturgeon Bay",     // Approximately 45 miles northeast of Green Bay, population: 9,646
+        "Delavan",          // Approximately 50 miles southwest of Milwaukee, population: 8,463
+        "Fort Atkinson",    // Approximately 40 miles east of Madison, population: 12,368
+        "Platteville",      // Approximately 70 miles southwest of Madison, population: 11,836
+            ]
   },
   {
     "name": "Iowa",
