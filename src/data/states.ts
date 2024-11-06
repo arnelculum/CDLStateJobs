@@ -16,8 +16,62 @@ export const states: State[] = [
   {
     name: "California",
     abbreviation: "CA",
-    cities: ["Los Angeles", "San Francisco", "San Diego", "Sacramento", "San Jose"]
-  },
+    cities: [
+        "Los Angeles", 
+        "San Francisco", 
+        "San Diego", 
+        "Sacramento", 
+        "San Jose",
+        "Bakersfield", // Approximately 110 miles from Los Angeles
+        "Fresno",      // Approximately 220 miles from San Francisco
+        "Riverside",   // Approximately 55 miles from Los Angeles
+        "Stockton",    // Approximately 90 miles from San Francisco
+        "Modesto",     // Approximately 90 miles from San Francisco
+        "Santa Rosa",  // Approximately 75 miles from San Francisco
+        "Chico",       // Approximately 90 miles from Sacramento
+        "Visalia",     // Approximately 190 miles from Los Angeles
+        "San Luis Obispo", // Approximately 190 miles from Los Angeles
+        "Palm Springs", // Approximately 110 miles from Los Angeles
+        "Napa",        // Approximately 50 miles from San Francisco
+        "Manteca",     // Approximately 75 miles from San Francisco
+        "Merced",      // Approximately 120 miles from San Francisco
+        "Hanford",     // Approximately 190 miles from Los Angeles
+        "Lodi",        // Approximately 80 miles from San Francisco
+        "Turlock",     // Approximately 100 miles from San Francisco
+        "Burlingame",  // Approximately 20 miles from San Francisco
+        "Ceres",       // Approximately 90 miles from San Francisco
+        "Simi Valley",  // Approximately 40 miles from Los Angeles
+        "Lakewood",    // Approximately 25 miles from Los Angeles
+        "Torrance",    // Approximately 20 miles from Los Angeles
+        "Culver City", // Approximately 10 miles from Los Angeles
+        "Santa Monica", // Approximately 15 miles from Los Angeles
+        "Redondo Beach", // Approximately 20 miles from Los Angeles
+        "Clovis",      // Approximately 200 miles from San Francisco
+        "Brea",        // Approximately 30 miles from Los Angeles
+        "Huntington Beach", // Approximately 35 miles from Los Angeles
+        "Fullerton",   // Approximately 25 miles from Los Angeles
+        "Costa Mesa",  // Approximately 40 miles from Los Angeles
+        "Irvine",      // Approximately 40 miles from Los Angeles
+        "Orange",      // Approximately 30 miles from Los Angeles
+        "Mission Viejo", // Approximately 50 miles from Los Angeles
+        "Lake Elsinore", // Approximately 60 miles from Los Angeles
+        "Temecula",    // Approximately 80 miles from Los Angeles
+        "Murrieta",    // Approximately 80 miles from Los Angeles
+        "Chula Vista",  // Approximately 7 miles from San Diego
+        "El Cajon",    // Approximately 20 miles from San Diego
+        "La Mesa",     // Approximately 10 miles from San Diego
+        "Encinitas",   // Approximately 30 miles from San Diego
+        "Carlsbad",    // Approximately 35 miles from San Diego
+        "Oceanside",   // Approximately 40 miles from San Diego
+        "Vista",       // Approximately 40 miles from San Diego
+        "San Marcos",  // Approximately 35 miles from San Diego
+        "Escondido",   // Approximately 30 miles from San Diego
+        "Fallbrook",   // Approximately 50 miles from San Diego
+        "Temecula",    // Approximately 80 miles from Los Angeles
+        "Hemet",       // Approximately 80 miles from Los Angeles
+        "Lake Arrowhead" // Approximately 80 miles from Los Angeles
+    ]
+},
   {
     name: "Nevada",
     abbreviation: "NV",
