@@ -532,9 +532,26 @@ export const states: State[] = [
             ]
   },
   {
-    name: "Nebraska",
-    abbreviation: "NE",
-    cities: ["Omaha", "Lincoln", "Bellevue", "Grand Island", "Kearney"]
+    "name": "Nebraska",
+    "abbreviation": "NE",
+    "cities": [
+        "Omaha",          // Major city, population: 483,335
+        "Lincoln",        // Major city, population: 294,757
+        "Bellevue",       // Approximately 8 miles south of Omaha, population: 63,922
+        "Grand Island",   // Approximately 95 miles west of Lincoln, population: 52,622
+        "Kearney",        // Approximately 130 miles west of Lincoln, population: 34,362
+        "Fremont",        // Approximately 35 miles northwest of Omaha, population: 27,602
+        "Hastings",       // Approximately 100 miles west of Lincoln, population: 24,896
+        "Norfolk",        // Approximately 115 miles northwest of Omaha, population: 26,147
+        "North Platte",   // Approximately 220 miles west of Lincoln, population: 22,523
+        "Columbus",       // Approximately 80 miles northwest of Lincoln, population: 24,464
+        "Papillion",      // Approximately 12 miles southwest of Omaha, population: 23,791
+        "La Vista",       // Approximately 10 miles southwest of Omaha, population: 16,346
+        "Scottsbluff",    // Approximately 400 miles west of Lincoln, population: 14,305
+        "South Sioux City", // Approximately 100 miles north of Omaha, population: 13,856
+        "Beatrice",       // Approximately 40 miles south of Lincoln, population: 12,262
+        "Lexington",      // Approximately 190 miles west of Lincoln, population: 10,816
+            ]
   },
   {
     "name": "Kansas",
