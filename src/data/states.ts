@@ -372,9 +372,76 @@ export const states: State[] = [
             ]
   },
   {
-    name: "Colorado",
-    abbreviation: "CO",
-    cities: ["Denver", "Colorado Springs", "Aurora", "Fort Collins", "Lakewood"]
+    "name": "Colorado",
+    "abbreviation": "CO",
+    "cities": [
+        "Denver",          // Major city, population: 716,577
+        "Colorado Springs",// Major city, population: 488,664
+        "Aurora",          // Major city, population: 395,052
+        "Fort Collins",    // Major city, population: 170,376
+        "Lakewood",        // Approximately 7 miles west of Denver, population: 155,961
+        "Thornton",        // Approximately 10 miles north of Denver, population: 144,922
+        "Arvada",          // Approximately 9 miles northwest of Denver, population: 121,414
+        "Westminster",     // Approximately 10 miles northwest of Denver, population: 114,875
+        "Greeley",         // Approximately 50 miles north of Denver, population: 112,609
+        "Pueblo",          // Approximately 100 miles south of Denver, population: 111,077
+        "Centennial",      // Approximately 15 miles south of Denver, population: 106,883
+        "Boulder",         // Approximately 30 miles northwest of Denver, population: 105,898
+        "Highlands Ranch", // Approximately 15 miles south of Denver, population: 101,514
+        "Longmont",        // Approximately 35 miles north of Denver, population: 98,630
+        "Castle Rock",     // Approximately 30 miles south of Denver, population: 81,415
+        "Loveland",        // Approximately 50 miles north of Denver, population: 79,352
+        "Broomfield",      // Approximately 20 miles northwest of Denver, population: 76,860
+        "Grand Junction",  // Approximately 240 miles west of Denver, population: 69,412
+        "Commerce City",   // Approximately 8 miles northeast of Denver, population: 68,245
+        "Parker",          // Approximately 25 miles southeast of Denver, population: 62,743
+        "Littleton",       // Approximately 10 miles south of Denver, population: 44,451
+        "Brighton",        // Approximately 20 miles northeast of Denver, population: 42,477
+        "Windsor",         // Approximately 60 miles north of Denver, population: 40,349
+        "Security-Widefield", // Approximately 10 miles south of Colorado Springs, population: 39,150
+        "Northglenn",      // Approximately 10 miles north of Denver, population: 38,164
+        "Erie",            // Approximately 25 miles north of Denver, population: 35,269
+        "Pueblo West",     // Approximately 10 miles west of Pueblo, population: 34,337
+        "Englewood",       // Approximately 10 miles south of Denver, population: 34,275
+        "Dakota Ridge",    // Approximately 15 miles southwest of Denver, population: 34,234
+        "Ken Caryl",       // Approximately 15 miles southwest of Denver, population: 33,505
+        "Wheat Ridge",     // Approximately 7 miles west of Denver, population: 31,804
+        "Lafayette",       // Approximately 20 miles north of Denver, population: 30,439
+        "Fountain",        // Approximately 15 miles south of Colorado Springs, population: 28,489
+        "Columbine",       // Approximately 15 miles southwest of Denver, population: 25,940
+        "Evans",           // Approximately 50 miles north of Denver, population: 22,326
+        "Four Square Mile",// Approximately 10 miles southeast of Denver, population: 21,420
+        "Montrose",        // Approximately 260 miles southwest of Denver, population: 21,333
+        "Louisville",      // Approximately 20 miles northwest of Denver, population: 20,390
+        "Golden",          // Approximately 15 miles west of Denver, population: 20,242
+        "Durango",         // Approximately 330 miles southwest of Denver, population: 19,534
+        "Johnstown",       // Approximately 45 miles north of Denver, population: 19,511
+        "Clifton",         // Approximately 240 miles west of Denver, population: 19,443
+        "Sherrelwood",     // Approximately 7 miles north of Denver, population: 19,254
+        "Cimarron Hills",  // Approximately 5 miles east of Colorado Springs, population: 19,039
+        "Firestone",       // Approximately 30 miles north of Denver, population: 18,589
+        "Fort Carson",     // Approximately 10 miles south of Colorado Springs, population: 18,105
+        "Frederick",       // Approximately 30 miles north of Denver, population: 17,676
+        "Cañon City",      // Approximately 115 miles south of Denver, population: 17,241
+        "Welby",           // Approximately 6 miles north of Denver, population: 16,287
+        "Greenwood Village", // Approximately 15 miles south of Denver, population: 15,205
+        "Castle Pines",    // Approximately 25 miles south of Denver, population: 14,747
+        "Black Forest",    // Approximately 15 miles northeast of Colorado Springs, population: 14,437
+        "Lone Tree",       // Approximately 20 miles south of Denver, population: 14,063
+        "Federal Heights", // Approximately 10 miles north of Denver, population: 13,943
+        "Fruita",          // Approximately 250 miles west of Denver, population: 13,816
+        "Steamboat Springs", // Approximately 150 miles northwest of Denver, population: 13,508
+        "Superior",        // Approximately 20 miles northwest of Denver, population: 13,361
+        "Berthoud",        // Approximately 45 miles north of Denver, population: 13,238
+        "Sterling",        // Approximately 125 miles northeast of Denver, population: 12,954
+        "Monument",        // Approximately 50 miles south of Denver, population: 12,088
+        "Wellington",      // Approximately 70 miles north of Denver, population: 12,078
+        "Fort Morgan",     // Approximately 80 miles northeast of Denver, population: 11,564
+        "Berkley",         // Approximately 5 miles northwest of Denver, population: 11,185
+        "Cherry Creek",    // Approximately 5 miles southeast of Denver, population: 11,157
+        "Severance",       // Approximately 60 miles north of Denver, population: 10,820
+        "Edwards",         // Approximately 130 miles west of Denver, population: 10,721
+            ]
   },
 
   // South Central States
