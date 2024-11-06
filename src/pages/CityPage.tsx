@@ -16,9 +16,9 @@ export default function CityPage() {
   const stateJobs = jobListings[stateId?.toUpperCase() || ''] || [];
   const cityJobs = stateJobs.filter(job => job.location.startsWith(city));
 
-  const metaTitle = `CDL Truck Driving Jobs in ${city}, ${state.abbreviation} | Local & OTR Positions`;
-  const metaDescription = `Find CDL truck driving jobs in ${city}, ${state.abbreviation}. Browse local and OTR positions with top carriers. Great pay, benefits, and home time available. Apply today!`;
-  const metaKeywords = `CDL jobs ${city}, truck driving jobs ${city} ${state.abbreviation}, local truck driver jobs ${city}, OTR jobs ${city}, trucking jobs ${city} ${state.name}`;
+  const metaTitle = `CDL Truck Driving Jobs in ${city}, ${state.abbreviation} | Local, Regional & OTR Positions`;
+const metaDescription = `Explore top CDL truck driving jobs in ${city}, ${state.abbreviation}. Apply now for local, regional, and OTR positions with leading carriers offering competitive pay, benefits, and home time.`;
+const metaKeywords = `CDL jobs ${city}, truck driving jobs ${city} ${state.abbreviation}, local truck driver jobs ${city}, regional truck driving jobs ${city}, OTR jobs ${city}, trucking jobs ${city} ${state.name}`;
 
   return (
     <>
