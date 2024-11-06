@@ -4,6 +4,13 @@ interface State {
   cities: string[];
 }
 
+// Define actively hiring states
+const activeHiringStates = [
+  'WA', 'OR', 'WY', 'UT', 'AZ', 'CO', 'TX', 'OK', 
+  'KS', 'NE', 'MN', 'IA', 'MO', 'AR', 'LA', 'MS', 
+  'WI', 'IL', 'IN', 'DE'
+];
+
 export const states: State[] = [
   // Western States
   {
@@ -294,29 +301,40 @@ export const generateJobListings = () => {
   const listings: Record<string, any[]> = {};
 
   states.forEach(state => {
-    listings[state.abbreviation] = state.cities.flatMap(city => [
-      {
-        title: 'Company Driver',
-        company: 'Giltner Transportation',
-        location: `${city}, ${state.abbreviation}`,
-        pay: '$0.57 – $0.60/mile',
-        postedDate: '2 days ago',
-        description: `Join our growing team of professional drivers in ${city}. We offer optimized lanes and consistent freight for the best home time and pay in ${state.name}.`,
-        benefits: defaultBenefits
-      },
-      {
-        title: 'Lease Operator',
-        company: 'Giltner Transportation',
-        location: `${city}, ${state.abbreviation}`,
-        pay: '73% of Line Haul',
-        postedDate: '2 days ago',
-        description: `Become a lease operator with us in ${city}. Run your own business with our support and enjoy the freedom of being your own boss while having the stability of working with an established carrier in ${state.name}.`,
-        benefits: leaseOperatorBenefits
-      }
-    ]);
+    // Only generate listings for active hiring states
+    if (activeHiringStates.includes(state.abbreviation)) {
+      listings[state.abbreviation] = state.cities.flatMap(city => [
+        {
+          title: 'Company Driver',
+          company: 'Giltner Transportation',
+          location: `${city}, ${state.abbreviation}`,
+          pay: '$0.57 – $0.60/mile',
+          postedDate: '2 days ago',
+          description: `Join our growing team of professional drivers in ${city}. We offer optimized lanes and consistent freight for the best home time and pay in ${state.name}.`,
+          benefits: defaultBenefits
+        },
+        {
+          title: 'Lease Operator',
+          company: 'Giltner Transportation',
+          location: `${city}, ${state.abbreviation}`,
+          pay: '73% of Line Haul',
+          postedDate: '2 days ago',
+          description: `Become a lease operator with us in ${city}. Run your own business with our support and enjoy the freedom of being your own boss while having the stability of working with an established carrier in ${state.name}.`,
+          benefits: leaseOperatorBenefits
+        }
+      ]);
+    } else {
+      // For non-hiring states, return empty array
+      listings[state.abbreviation] = [];
+    }
   });
 
   return listings;
+};
+
+// Helper function to check if a state is hiring
+export const isStateHiring = (stateAbbr: string): boolean => {
+  return activeHiringStates.includes(stateAbbr.toUpperCase());
 };
 
 export const jobListings = generateJobListings();
