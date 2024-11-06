@@ -767,9 +767,20 @@ export const states: State[] = [
 
   // Mid-Atlantic/Southeast States
   {
-    name: "Delaware",
-    abbreviation: "DE",
-    cities: ["Wilmington", "Dover", "Newark", "Middletown", "Smyrna"]
+    "name": "Delaware",
+    "abbreviation": "DE",
+    "cities": [
+        "Wilmington",    // Major city, population: 71,675
+        "Dover",         // Major city, population: 39,894
+        "Newark",        // Approximately 12 miles southwest of Wilmington, population: 30,169
+        "Middletown",    // Approximately 24 miles south of Wilmington, population: 25,022
+        "Bear",          // Approximately 14 miles south of Wilmington, population: 23,070
+        "Glasgow",       // Approximately 15 miles southwest of Wilmington, population: 15,405
+        "Brookside",     // Approximately 13 miles southwest of Wilmington, population: 14,331
+        "Hockessin",     // Approximately 10 miles northwest of Wilmington, population: 13,878
+        "Milford",       // Approximately 20 miles south of Dover, population: 13,289
+        "Smyrna"         // Approximately 12 miles north of Dover, population: 13,277
+            ]
   },
   {
     name: "Maryland",
