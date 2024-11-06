@@ -1241,9 +1241,75 @@ export const states: State[] = [
             ]
   },
   {
-    name: "Illinois",
-    abbreviation: "IL",
-    cities: ["Chicago", "Aurora", "Naperville", "Joliet", "Rockford"]
+    "name": "Illinois",
+    "abbreviation": "IL",
+    "cities": [
+        "Chicago",          // Major city, population: 2,664,452
+        "Aurora",           // Approximately 40 miles west of Chicago, population: 177,563
+        "Joliet",           // Approximately 45 miles southwest of Chicago, population: 150,489
+        "Naperville",       // Approximately 30 miles west of Chicago, population: 150,245
+        "Rockford",         // Approximately 90 miles northwest of Chicago, population: 146,120
+        "Elgin",            // Approximately 40 miles northwest of Chicago, population: 113,310
+        "Springfield",      // State capital, approximately 200 miles southwest of Chicago, population: 112,544
+        "Peoria",           // Approximately 165 miles southwest of Chicago, population: 110,460
+        "Champaign",        // Approximately 135 miles south of Chicago, population: 89,189
+        "Waukegan",         // Approximately 40 miles north of Chicago, population: 87,642
+        "Cicero",           // Approximately 10 miles west of Chicago, population: 81,004
+        "Bloomington",      // Approximately 135 miles southwest of Chicago, population: 78,587
+        "Schaumburg",       // Approximately 30 miles northwest of Chicago, population: 75,750
+        "Evanston",         // Approximately 12 miles north of Chicago, population: 75,070
+        "Arlington Heights",// Approximately 25 miles northwest of Chicago, population: 74,495
+        "Bolingbrook",      // Approximately 30 miles southwest of Chicago, population: 74,088
+        "Decatur",          // Approximately 180 miles southwest of Chicago, population: 68,670
+        "Skokie",           // Approximately 15 miles northwest of Chicago, population: 64,937
+        "Palatine",         // Approximately 30 miles northwest of Chicago, population: 64,869
+        "Des Plaines",      // Approximately 20 miles northwest of Chicago, population: 58,010
+        "Orland Park",      // Approximately 25 miles southwest of Chicago, population: 57,074
+        "Oak Lawn",         // Approximately 15 miles southwest of Chicago, population: 55,734
+        "Berwyn",           // Approximately 10 miles west of Chicago, population: 54,414
+        "Mount Prospect",   // Approximately 20 miles northwest of Chicago, population: 54,298
+        "Tinley Park",      // Approximately 25 miles southwest of Chicago, population: 53,886
+        "Wheaton",          // Approximately 25 miles west of Chicago, population: 52,938
+        "Normal",           // Approximately 135 miles southwest of Chicago, population: 52,618
+        "Oak Park",         // Approximately 10 miles west of Chicago, population: 52,055
+        "Hoffman Estates",  // Approximately 30 miles northwest of Chicago, population: 50,179
+        "Downers Grove",    // Approximately 25 miles west of Chicago, population: 49,706
+        "Plainfield",       // Approximately 35 miles southwest of Chicago, population: 47,448
+        "Glenview",         // Approximately 20 miles northwest of Chicago, population: 46,904
+        "Elmhurst",         // Approximately 20 miles west of Chicago, population: 45,336
+        "Lombard",          // Approximately 20 miles west of Chicago, population: 43,779
+        "Buffalo Grove",    // Approximately 30 miles northwest of Chicago, population: 42,482
+        "Moline",           // Approximately 165 miles west of Chicago, population: 41,965
+        "Romeoville",       // Approximately 30 miles southwest of Chicago, population: 40,955
+        "Crystal Lake",     // Approximately 45 miles northwest of Chicago, population: 40,861
+        "Belleville",       // Approximately 15 miles southeast of St. Louis, population: 40,726
+        "DeKalb",           // Approximately 65 miles west of Chicago, population: 40,211
+        "Bartlett",         // Approximately 35 miles west of Chicago, population: 39,992
+        "Carol Stream",     // Approximately 30 miles west of Chicago, population: 38,966
+        "Quincy",           // Approximately 300 miles southwest of Chicago, population: 38,803
+        "Urbana",           // Approximately 140 miles south of Chicago, population: 38,209
+        "Park Ridge",       // Approximately 15 miles northwest of Chicago, population: 37,897
+        "Streamwood",       // Approximately 35 miles northwest of Chicago, population: 37,780
+        "Wheeling",         // Approximately 25 miles northwest of Chicago, population: 37,725
+        "Carpentersville",  // Approximately 40 miles northwest of Chicago, population: 37,099
+        "Oswego",           // Approximately 50 miles southwest of Chicago, population: 37,074
+        "Hanover Park",     // Approximately 30 miles northwest of Chicago, population: 36,165
+        "Rock Island",      // Approximately 165 miles west of Chicago, population: 36,132
+        "Addison",          // Approximately 20 miles west of Chicago, population: 35,167
+        "Calumet City",     // Approximately 20 miles south of Chicago, population: 34,358
+        "Northbrook",       // Approximately 25 miles north of Chicago, population: 33,977
+        "Woodridge",        // Approximately 30 miles southwest of Chicago, population: 33,566
+        "St. Charles",      // Approximately 35 miles west of Chicago, population: 33,045
+        "Elk Grove Village",// Approximately 20 miles northwest of Chicago, population: 32,664
+        "O'Fallon",         // Approximately 15 miles east of St. Louis, population: 32,334
+        "Pekin",            // Approximately 170 miles southwest of Chicago, population: 31,645
+        "Mundelein",        // Approximately 35 miles northwest of Chicago, population: 31,559
+        "Niles",            // Approximately 15 miles northwest of Chicago, population: 30,917
+        "Gurnee",           // Approximately 40 miles north of Chicago, population: 30,682
+        "Highland Park",    // Approximately 25 miles north of Chicago, population: 30,181
+        "North Chicago",    // Approximately 35 miles north of Chicago, population: 30,133
+        "Galesburg",        // Approximately 200 miles southwest of Chicago, population: 30,002
+            ]
   },
   {
     name: "Indiana",
