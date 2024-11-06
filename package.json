@@ -4,12 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "remix vite:dev",
+    "build": "remix vite:build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@remix-run/react": "latest",
+    "@remix-run/server-runtime": "latest",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -18,6 +20,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
+    "@remix-run/dev": "latest",
     "@tailwindcss/typography": "^0.5.10",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
