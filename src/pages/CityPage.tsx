@@ -20,41 +20,129 @@ export default function CityPage() {
   const metaDescription = `Explore top CDL truck driving jobs in ${city}, ${state.abbreviation}. Apply now for local, regional, and OTR positions with leading carriers offering competitive pay, benefits, and home time.`;
   const metaKeywords = `CDL jobs ${city}, truck driving jobs ${city} ${state.abbreviation}, local truck driver jobs ${city}, regional truck driving jobs ${city}, OTR jobs ${city}, trucking jobs ${city} ${state.name}`;
 
-  const generateJobSchema = (job) => ({
-    "@context": "https://schema.org",
+  // Generate Company Driver Schema
+  const companyDriverSchema = {
+    "@context": "https://schema.org/",
     "@type": "JobPosting",
-    "title": job.title,
-    "description": job.description,
+    "title": "OTR Company Driver",
+    "description": `<p>Join our expanding team of over-the-road (OTR) professional drivers serving the ${city}, ${state.abbreviation} area. Based in Jerome, Idaho, Giltner Transportation offers optimized lanes and consistent freight, ensuring you receive the best home time and competitive pay.</p>
+    <p><strong>Requirements:</strong></p>
+    <ul>
+      <li>Valid Class A CDL</li>
+      <li>Minimum 18 months of OTR tractor-trailer experience</li>
+    </ul>
+    <p><strong>Benefits Include:</strong></p>
+    <ul>
+      <li>Starting Rate of $0.57 – $0.60/mile Based on Experience</li>
+      <li>Paid Weekly</li>
+      <li>Mileage, Safety, and Fuel Bonus Programs</li>
+      <li>99% No Touch Freight – Refrigerated</li>
+      <li>Major Medical, Dental, and Vision after 60 Days</li>
+      <li>Latest Model Equipment - Freightliner Cascadia and Volvo 860</li>
+      <li>Direct Deposit</li>
+      <li>Pet Friendly Policy</li>
+      <li>Vacation Pay after 1 Year</li>
+    </ul>`,
+    "identifier": {
+      "@type": "PropertyValue",
+      "name": "Giltner Transportation",
+      "value": "CD-OTR-" + city.replace(/\s+/g, '') + state.abbreviation
+    },
     "datePosted": "2024-11-09",
-    "validThrough": "2025-11-09",
+    "validThrough": "2025-11-09T00:00",
+    "employmentType": "FULL_TIME",
     "hiringOrganization": {
       "@type": "Organization",
       "name": "Giltner Transportation",
-      "sameAs": "https://www.giltner.com"
+      "sameAs": "https://www.giltner.com",
+      "logo": "https://cdljobsbystate.com/logo.webp"
     },
     "jobLocation": {
       "@type": "Place",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "980 W Main St B",
-        "addressLocality": city,
-        "addressRegion": state.abbreviation,
+        "addressLocality": "Jerome",
+        "addressRegion": "ID",
         "postalCode": "83338",
         "addressCountry": "US"
       }
     },
-    "employmentType": "FULL_TIME",
     "baseSalary": {
       "@type": "MonetaryAmount",
       "currency": "USD",
       "value": {
         "@type": "QuantitativeValue",
-        "minValue": 42000,
-        "maxValue": 75000,
-        "unitText": "YEAR"
+        "minValue": 0.57,
+        "maxValue": 0.60,
+        "unitText": "MILE"
       }
+    },
+    "experienceRequirements": {
+      "@type": "OccupationalExperienceRequirements",
+      "monthsOfExperience": "18"
     }
-  });
+  };
+
+  // Generate Lease Operator Schema
+  const leaseOperatorSchema = {
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": "Lease Operator",
+    "description": `<p>Elevate your trucking career by becoming a Lease Operator with Giltner Transportation in ${city}, ${state.abbreviation}. Operate your own business with the robust support of a reputable carrier, enjoying the autonomy of being your own boss.</p>
+    <p><strong>Requirements:</strong></p>
+    <ul>
+      <li>Valid Class A CDL</li>
+      <li>Minimum 18 months of OTR tractor-trailer experience</li>
+    </ul>
+    <p><strong>Program Benefits:</strong></p>
+    <ul>
+      <li>73% of Line Haul</li>
+      <li>100% of Fuel Surcharge</li>
+      <li>EFS Fuel Card Discounts</li>
+      <li>Affordable Payments</li>
+      <li>New Equipment</li>
+      <li>Extended Warranty</li>
+      <li>Flexible Home Time</li>
+      <li>No Trailer Rental</li>
+    </ul>
+    <p><strong>Owner Operator Requirements:</strong></p>
+    <ul>
+      <li>Equipment must be 3 years old or newer</li>
+      <li>Must be California Carbon-Compliant</li>
+      <li>Tractor must weigh less than 17,500 lbs (dry weight, before fuel)</li>
+      <li>Tractor must be able to haul 44,000 lbs</li>
+    </ul>`,
+    "identifier": {
+      "@type": "PropertyValue",
+      "name": "Giltner Transportation",
+      "value": "LO-OTR-" + city.replace(/\s+/g, '') + state.abbreviation
+    },
+    "datePosted": "2024-11-09",
+    "validThrough": "2025-11-09T00:00",
+    "employmentType": ["FULL_TIME", "CONTRACTOR"],
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Giltner Transportation",
+      "sameAs": "https://www.giltner.com",
+      "logo": "https://cdljobsbystate.com/logo.webp"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "980 W Main St B",
+        "addressLocality": "Jerome",
+        "addressRegion": "ID",
+        "postalCode": "83338",
+        "addressCountry": "US"
+      }
+    },
+    "experienceRequirements": {
+      "@type": "OccupationalExperienceRequirements",
+      "monthsOfExperience": "18"
+    }
+  };
 
   return (
     <>
@@ -62,12 +150,13 @@ export default function CityPage() {
         <title>{metaTitle}</title>
         <meta name="description" content={metaDescription} />
         <meta name="keywords" content={metaKeywords} />
-        <link rel="canonical" href={`https://yourcdljobs.com/state/${stateId?.toLowerCase()}/${citySlug}`} />
-        {cityJobs.map((job, index) => (
-          <script key={`schema-${index}`} type="application/ld+json">
-            {JSON.stringify(generateJobSchema(job))}
-          </script>
-        ))}
+        <link rel="canonical" href={`https://cdljobsbystate.com/state/${stateId?.toLowerCase()}/${citySlug}`} />
+        <script type="application/ld+json">
+          {JSON.stringify(companyDriverSchema)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(leaseOperatorSchema)}
+        </script>
       </Helmet>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
