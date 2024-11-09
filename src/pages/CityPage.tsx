@@ -17,8 +17,67 @@ export default function CityPage() {
   const cityJobs = stateJobs.filter(job => job.location.startsWith(city));
 
   const metaTitle = `CDL Truck Driving Jobs in ${city}, ${state.abbreviation} | Local, Regional & OTR Positions`;
-const metaDescription = `Explore top CDL truck driving jobs in ${city}, ${state.abbreviation}. Apply now for local, regional, and OTR positions with leading carriers offering competitive pay, benefits, and home time.`;
-const metaKeywords = `CDL jobs ${city}, truck driving jobs ${city} ${state.abbreviation}, local truck driver jobs ${city}, regional truck driving jobs ${city}, OTR jobs ${city}, trucking jobs ${city} ${state.name}`;
+  const metaDescription = `Explore top CDL truck driving jobs in ${city}, ${state.abbreviation}. Apply now for local, regional, and OTR positions with leading carriers offering competitive pay, benefits, and home time.`;
+  const metaKeywords = `CDL jobs ${city}, truck driving jobs ${city} ${state.abbreviation}, local truck driver jobs ${city}, regional truck driving jobs ${city}, OTR jobs ${city}, trucking jobs ${city} ${state.name}`;
+
+  // Helper function to generate schema for each job
+  const generateJobSchema = (job, index) => {
+    const validThrough = new Date(job.postedDate);
+    validThrough.setDate(validThrough.getDate() + 30);
+
+    return {
+      "@context": "https://schema.org",
+      "@type": "JobPosting",
+      "title": job.title,
+      "description": job.description,
+      "datePosted": job.postedDate,
+      "validThrough": validThrough.toISOString(),
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": job.company,
+        "sameAs": "https://yourcdljobs.com"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": city,
+          "addressRegion": state.abbreviation,
+          "addressCountry": "US"
+        }
+      },
+      "baseSalary": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": {
+          "@type": "QuantitativeValue",
+          "value": parseFloat(job.pay.replace(/[^0-9.]/g, '')),
+          "unitText": "YEAR"
+        }
+      },
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": job.company,
+        "value": `${job.company}-${city}-${state.abbreviation}-${index}`.toLowerCase()
+      },
+      "industry": "Transportation",
+      "occupationalCategory": "53-3032 Heavy and Tractor-Trailer Truck Drivers",
+      "educationRequirements": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "professional certificate"
+      },
+      "skills": "CDL-A",
+      "qualifications": "Valid CDL-A license required",
+      "responsibilities": job.description,
+      "benefits": job.benefits.join(", "),
+      "directApply": true,
+      "applicationContact": {
+        "@type": "ContactPoint",
+        "url": "https://intelliapp.driverapponline.com/c/giltner?apply-now-page&uri_b=ia_giltner_862754769"
+      }
+    };
+  };
 
   return (
     <>
@@ -27,25 +86,11 @@ const metaKeywords = `CDL jobs ${city}, truck driving jobs ${city} ${state.abbre
         <meta name="description" content={metaDescription} />
         <meta name="keywords" content={metaKeywords} />
         <link rel="canonical" href={`https://yourcdljobs.com/state/${stateId?.toLowerCase()}/${citySlug}`} />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "JobPosting",
-            "jobLocation": {
-              "@type": "Place",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": city,
-                "addressRegion": state.abbreviation,
-                "addressCountry": "US"
-              }
-            },
-            "industry": "Transportation",
-            "employmentType": "FULL_TIME",
-            "description": `CDL truck driving jobs in ${city}, ${state.abbreviation}`,
-            "occupationalCategory": "Truck Driver"
-          })}
-        </script>
+        {cityJobs.map((job, index) => (
+          <script key={`schema-${index}`} type="application/ld+json">
+            {JSON.stringify(generateJobSchema(job, index))}
+          </script>
+        ))}
       </Helmet>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
