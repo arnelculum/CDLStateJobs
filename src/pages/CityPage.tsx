@@ -20,64 +20,41 @@ export default function CityPage() {
   const metaDescription = `Explore top CDL truck driving jobs in ${city}, ${state.abbreviation}. Apply now for local, regional, and OTR positions with leading carriers offering competitive pay, benefits, and home time.`;
   const metaKeywords = `CDL jobs ${city}, truck driving jobs ${city} ${state.abbreviation}, local truck driver jobs ${city}, regional truck driving jobs ${city}, OTR jobs ${city}, trucking jobs ${city} ${state.name}`;
 
-  // Helper function to generate schema for each job
-  const generateJobSchema = (job, index) => {
-    const validThrough = new Date(job.postedDate);
-    validThrough.setDate(validThrough.getDate() + 30);
-
-    return {
-      "@context": "https://schema.org",
-      "@type": "JobPosting",
-      "title": job.title,
-      "description": job.description,
-      "datePosted": job.postedDate,
-      "validThrough": validThrough.toISOString(),
-      "employmentType": "FULL_TIME",
-      "hiringOrganization": {
-        "@type": "Organization",
-        "name": job.company,
-        "sameAs": "https://yourcdljobs.com"
-      },
-      "jobLocation": {
-        "@type": "Place",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": city,
-          "addressRegion": state.abbreviation,
-          "addressCountry": "US"
-        }
-      },
-      "baseSalary": {
-        "@type": "MonetaryAmount",
-        "currency": "USD",
-        "value": {
-          "@type": "QuantitativeValue",
-          "value": parseFloat(job.pay.replace(/[^0-9.]/g, '')),
-          "unitText": "YEAR"
-        }
-      },
-      "identifier": {
-        "@type": "PropertyValue",
-        "name": job.company,
-        "value": `${job.company}-${city}-${state.abbreviation}-${index}`.toLowerCase()
-      },
-      "industry": "Transportation",
-      "occupationalCategory": "53-3032 Heavy and Tractor-Trailer Truck Drivers",
-      "educationRequirements": {
-        "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "professional certificate"
-      },
-      "skills": "CDL-A",
-      "qualifications": "Valid CDL-A license required",
-      "responsibilities": job.description,
-      "benefits": job.benefits.join(", "),
-      "directApply": true,
-      "applicationContact": {
-        "@type": "ContactPoint",
-        "url": "https://intelliapp.driverapponline.com/c/giltner?apply-now-page&uri_b=ia_giltner_862754769"
+  const generateJobSchema = (job) => ({
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": job.title,
+    "description": job.description,
+    "datePosted": "2024-01-18",
+    "validThrough": "2024-03-18",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Giltner Transportation",
+      "sameAs": "https://www.giltner.com"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1001 W Main St",
+        "addressLocality": city,
+        "addressRegion": state.abbreviation,
+        "postalCode": "83338",
+        "addressCountry": "US"
       }
-    };
-  };
+    },
+    "employmentType": "FULL_TIME",
+    "baseSalary": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": {
+        "@type": "QuantitativeValue",
+        "minValue": 57000,
+        "maxValue": 75000,
+        "unitText": "YEAR"
+      }
+    }
+  });
 
   return (
     <>
@@ -88,7 +65,7 @@ export default function CityPage() {
         <link rel="canonical" href={`https://yourcdljobs.com/state/${stateId?.toLowerCase()}/${citySlug}`} />
         {cityJobs.map((job, index) => (
           <script key={`schema-${index}`} type="application/ld+json">
-            {JSON.stringify(generateJobSchema(job, index))}
+            {JSON.stringify(generateJobSchema(job))}
           </script>
         ))}
       </Helmet>
