@@ -25,8 +25,8 @@ export default function CityPage() {
     "@type": "JobPosting",
     "title": job.title,
     "description": job.description,
-    "datePosted": "2024-01-18",
-    "validThrough": "2024-03-18",
+    "datePosted": "2024-11-09",
+    "validThrough": "2025-11-09",
     "hiringOrganization": {
       "@type": "Organization",
       "name": "Giltner Transportation",
@@ -36,7 +36,7 @@ export default function CityPage() {
       "@type": "Place",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "1001 W Main St",
+        "streetAddress": "980 W Main St B",
         "addressLocality": city,
         "addressRegion": state.abbreviation,
         "postalCode": "83338",
@@ -49,7 +49,7 @@ export default function CityPage() {
       "currency": "USD",
       "value": {
         "@type": "QuantitativeValue",
-        "minValue": 57000,
+        "minValue": 42000,
         "maxValue": 75000,
         "unitText": "YEAR"
       }
