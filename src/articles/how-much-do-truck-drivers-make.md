@@ -39,30 +39,29 @@ Owner-operators often earn $2-3 per mile gross, but need to account for expenses
 
 Salary can vary significantly by region:
 
-1. **Northeast**
-   - Higher pay due to challenging conditions
-   - Dense urban areas require more skill
-   - Winter weather premiums
+1. Northeast
+- Higher pay due to challenging conditions
+- Dense urban areas require more skill
+- Winter weather premiums
 
-2. **Midwest**
-   - Competitive rates
-   - Lower cost of living
-   - High freight volume
+2. Midwest
+- Competitive rates
+- Lower cost of living
+- High freight volume
 
-3. **West Coast**
-   - Premium pay rates
-   - Higher cost of living
-   - Port city opportunities
+3. West Coast
+- Premium pay rates
+- Higher cost of living
+- Port city opportunities
 
-4. **Southeast**
-   - Growing demand
-   - Improving rates
-   - Year-round good weather
+4. Southeast
+- Growing demand
+- Improving rates
+- Year-round good weather
 
 ## Additional Income Opportunities
 
 Many carriers offer additional ways to earn:
-
 - Safety bonuses
 - Fuel efficiency bonuses
 - Referral programs
