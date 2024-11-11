@@ -11,7 +11,7 @@ export interface Article {
 }
 
 // This will get content from our text files
-const articleFiles = import.meta.glob('../articles/*.txt', { eager: true });
+const articleFiles = import.meta.glob('../articles/*.json', { eager: true });
 
 export const getAllArticles = (): Article[] => {
   return Object.entries(articleFiles).map(([path, content]: [string, any]) => {
