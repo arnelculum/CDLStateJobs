@@ -10,31 +10,22 @@ export interface Article {
   content: string;
 }
 
-export const articles: Article[] = [
-  {
-    slug: 'how-much-do-truck-drivers-make',
-    title: 'CDL Driver Salary Guide: How Much Do Truck Drivers Make in 2024?',
-    excerpt: 'Comprehensive breakdown of truck driver salaries across different roles, regions, and experience levels.',
-    date: '2024-03-15',
-    author: 'John Smith',
-    readTime: '6 min read',
-    tags: ['salary', 'career', 'industry-trends'],
-    image: '/api/placeholder/800/500',
-    content: `
-# CDL Driver Salary Guide: How Much Do Truck Drivers Make in 2024?
+// Import all .md files from the articles directory
+const articles = import.meta.glob('../articles/*.md', { eager: true }) as Record<string, any>;
 
-Professional truck drivers are the backbone of America's economy, and their compensation reflects the vital nature of their work. In this comprehensive guide, we'll break down what CDL drivers can expect to earn in 2024.
-
-[... rest of your article content ...]
-    `
-  }
-  // You can add more articles here
-];
-
+// Convert imported markdown files to Article objects
 export const getAllArticles = (): Article[] => {
-  return articles.sort((a, b) => 
-    new Date(b.date).getTime() - new Date(a.date).getTime()
-  );
+  return Object.entries(articles).map(([path, article]) => ({
+    slug: path.replace('../articles/', '').replace('.md', ''),
+    title: article.frontmatter.title,
+    excerpt: article.frontmatter.excerpt,
+    date: article.frontmatter.date,
+    author: article.frontmatter.author,
+    readTime: article.frontmatter.readTime,
+    tags: article.frontmatter.tags,
+    image: article.frontmatter.image,
+    content: article.content
+  })).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 };
 
 export const getLatestArticles = (count: number): Article[] => {
@@ -42,5 +33,5 @@ export const getLatestArticles = (count: number): Article[] => {
 };
 
 export const getArticleBySlug = (slug: string): Article | undefined => {
-  return articles.find(article => article.slug === slug);
+  return getAllArticles().find(article => article.slug === slug);
 };
