@@ -10,22 +10,37 @@ export interface Article {
   content: string;
 }
 
-// Import all .md files from the articles directory
-const articles = import.meta.glob('../articles/*.md', { eager: true }) as Record<string, any>;
+// This will get content from our text files
+const articleFiles = import.meta.glob('../articles/*.txt', { eager: true });
 
-// Convert imported markdown files to Article objects
 export const getAllArticles = (): Article[] => {
-  return Object.entries(articles).map(([path, article]) => ({
-    slug: path.replace('../articles/', '').replace('.md', ''),
-    title: article.frontmatter.title,
-    excerpt: article.frontmatter.excerpt,
-    date: article.frontmatter.date,
-    author: article.frontmatter.author,
-    readTime: article.frontmatter.readTime,
-    tags: article.frontmatter.tags,
-    image: article.frontmatter.image,
-    content: article.content
-  })).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  return Object.entries(articleFiles).map(([path, content]: [string, any]) => {
+    const slug = path.split('/').pop()?.replace('.txt', '') || '';
+    const fileContent = content.default;
+    const [metadata, ...contentLines] = fileContent.split('\n\n');
+    
+    // Parse the simple metadata from first lines
+    const metaLines = metadata.split('\n');
+    const title = metaLines[0].replace('Title: ', '');
+    const excerpt = metaLines[1].replace('Excerpt: ', '');
+    const date = metaLines[2].replace('Date: ', '');
+    const author = metaLines[3].replace('Author: ', '');
+    const readTime = metaLines[4].replace('ReadTime: ', '');
+    const tags = metaLines[5].replace('Tags: ', '').split(',').map((t: string) => t.trim());
+    const image = metaLines[6].replace('Image: ', '');
+
+    return {
+      slug,
+      title,
+      excerpt,
+      date,
+      author,
+      readTime,
+      tags,
+      image,
+      content: contentLines.join('\n\n')
+    };
+  }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 };
 
 export const getLatestArticles = (count: number): Article[] => {
