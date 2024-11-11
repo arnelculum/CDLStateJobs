@@ -1,17 +1,12 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import string from 'vite-plugin-string';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    string({
-      include: '**/*.txt',
-    }),
-  ],
+  plugins: [react()],
   build: {
     outDir: 'dist',
     minify: true,
-    sourcemap: true,
-  },
-});
+    sourcemap: true
+  }
+})
