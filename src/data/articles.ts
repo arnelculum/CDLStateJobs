@@ -18,16 +18,16 @@ export const getAllArticles = (): Article[] => {
     const slug = path.split('/').pop()?.replace('.txt', '') || '';
     const fileContent = content.default;
     const [metadata, ...contentLines] = fileContent.split('\n\n');
-    
+
     // Parse the simple metadata from first lines
     const metaLines = metadata.split('\n');
-    const title = metaLines[0].replace('Title: ', '');
-    const excerpt = metaLines[1].replace('Excerpt: ', '');
-    const date = metaLines[2].replace('Date: ', '');
-    const author = metaLines[3].replace('Author: ', '');
-    const readTime = metaLines[4].replace('ReadTime: ', '');
-    const tags = metaLines[5].replace('Tags: ', '').split(',').map((t: string) => t.trim());
-    const image = metaLines[6].replace('Image: ', '');
+    const title = metaLines[0]?.replace('Title: ', '') || '';
+    const excerpt = metaLines[1]?.replace('Excerpt: ', '') || '';
+    const date = metaLines[2]?.replace('Date: ', '') || '';
+    const author = metaLines[3]?.replace('Author: ', '') || '';
+    const readTime = metaLines[4]?.replace('ReadTime: ', '') || '';
+    const tags = metaLines[5]?.replace('Tags: ', '').split(',').map((t: string) => t.trim()) || [];
+    const image = metaLines[6]?.replace('Image: ', '') || '';
 
     return {
       slug,
