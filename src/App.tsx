@@ -7,6 +7,9 @@ import HomePage from './pages/HomePage';
 import StatePage from './pages/StatePage';
 import CityPage from './pages/CityPage';
 import PostJob from './pages/PostJob';
+// Add these new imports
+import BlogPage from './pages/BlogPage';
+import ArticlePage from './pages/ArticlePage';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
               <Route path="/state/:stateId" element={<StatePage />} />
               <Route path="/state/:stateId/:citySlug" element={<CityPage />} />
               <Route path="/post-job" element={<PostJob />} />
+                            {/* Add these new routes */}
+              <Route path="/blog" element={<BlogPage />} />
+              <Route path="/:slug" element={<ArticlePage />} />
             </Routes>
           </main>
           <Footer />
